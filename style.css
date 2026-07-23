@@ -1,0 +1,26 @@
+/* Base Dark Theme */
+body { 
+  background-color: #121212; 
+  color: #ffffff; 
+}
+
+.bg-panel { 
+  background-color: #1e1e24; 
+}
+
+.border-accent { 
+  border-color: #3b82f6; 
+}
+
+/* Fruit Image Custom Styling & Effects */
+.fruit-img {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+/* Subtle zoom effect when hovering over cards */
+.group:hover .fruit-img,
+div:hover > .fruit-img {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.6));
+}
