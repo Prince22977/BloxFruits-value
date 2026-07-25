@@ -19,256 +19,256 @@
 const itemDatabase = [
   // Physical Fruits
   {
-    id: "West Dragon", 
-    name: "West Dragon", 
+    id: "West Dragon     ", 
+    name: "West Dragon     ", 
     category: "Physical", 
     value: 5.55e9, 
     demand: "10/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F7LfBxxs8%2FWest-Dragon.png&w=1920&q=95" 
   },
    {
-    id: "East Dragon", 
-    name: "East Dragon", 
+    id: "East Dragon     ", 
+    name: "East Dragon     ", 
     category: "Physical", 
     value: 5.4e9, 
     demand: "10/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FgkzHzzjS%2FEast-Dragon.png&w=640&q=95" 
   },
   { 
-    id: "kitsune", 
-    name: "Kitsune", 
+    id: "kitsune     ", 
+    name: "Kitsune     ", 
     category: "Physical", 
     value: 680000000, 
     demand: "10/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FCLxbycr9%2FKitsune.png&w=640&q=95" 
   },
   { 
-    id: "Control", 
-    name: "Control", 
+    id: "Control     ", 
+    name: "Control     ", 
     category: "Physical", 
     value: 170000000, 
     demand: "10/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Ft48L8bFV%2Flatest-cb-20251223165924.webp&w=640&q=95" 
   },
   { 
-    id: "Yeti", 
-    name: "Yeti", 
+    id: "Yeti     ", 
+    name: "Yeti     ", 
     category: "Physical", 
     value: 130000000, 
     demand: "8/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FmrJmk0Jc%2FYeti.png&w=640&q=95" 
   },
   { 
-    id: "Gas", 
-    name: "Gas", 
+    id: "Gas     ", 
+    name: "Gas     ", 
     category: "Physical", 
     value: 60000000, 
     demand: "8/10", 
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FXNCpc4fS%2F1000-cb-20241223162315.webp&w=640&q=95" 
   },
   {
-    id: "Tiger",
-    name: "Tiger",
+    id: "Tiger     ",
+    name: "Tiger     ",
     category: "Physical",
     value: 140000000,
     demand: "9/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FvBDS3KNp%2Fdownload.png&w=640&q=95"
   },
   {
-    id: "Lightning",
-    name: "Lightning",
+    id: "Lightning     ",
+    name: "Lightning     ",
     category: "Physical",
     value: 50000000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMHTHLFZD%2FRumble.png&w=640&q=95"
   },
   {
-    id: "Venom",
-    name: "Venom",
+    id: "Venom     ",
+    name: "Venom     ",
     category: "Physical",
     value: 20000000,
     demand: "8/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGdtZLkF%2FVenom.png&w=640&q=95"
   },
   {
-    id: "Dough",
-    name: "Dough",
+    id: "Dough     ",
+    name: "Dough     ",
     category: "Physical",
     value: 30000000,
     demand: "9/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwxckYyqR%2FDough.png&w=640&q=95"
   },
   {
-    id: "Pain",
-    name: "Pain",
+    id: "Pain     ",
+    name: "Pain     ",
     category: "Physical",
     value: 10000000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fmk21srj7%2FPain.png&w=640&q=95"
   },
   {
-    id: "T-Rex",
-    name: "T-Rex",
+    id: "T-Rex     ",
+    name: "T-Rex     ",
     category: "Physical",
     value: 20000000,
     demand: "8/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGDtcwTf%2FT-Rex.png&w=1920&q=75"
   },
   {
-    id: "Gravity",
-    name: "Gravity",
+    id: "Gravity     ",
+    name: "Gravity     ",
     category: "Physical",
     value: 10000000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FD02Lw6vJ%2FGravity.png&w=1920&q=75"
   },
   {
-    id: "Mammoth",
-    name: "Mammoth",
+    id: "Mammoth     ",
+    name: "Mammoth     ",
     category: "Physical",
     value: 10000000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsXJGqWYV%2FMammoth.png&w=1080&q=75"
   },
   {
-    id: "Spirit",
-    name: "Spirit",
+    id: "Spirit     ",
+    name: "Spirit     ",
     category: "Physical",
     value: 10000000,
     demand: "7/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwTpbhYvL%2FSpirit.png&w=640&q=95"
   },
   {
-    id: "Shadow",
-    name: "Shadow",
+    id: "Shadow     ",
+    name: "Shadow     ",
     category: "Physical",
     value: 6500000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FkGpGPvBd%2FShadow.png&w=1920&q=95"
   },
   {
-    id: "Portal",
-    name: "Portal",
+    id: "Portal     ",
+    name: "Portal     ",
     category: "Physical",
     value: 10000000,
     demand: "10/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDzkWz65v%2FPortal.png&w=640&q=75"
   },
   {
-    id: "Buddha",
-    name: "Buddha",
+    id: "Buddha     ",
+    name: "Buddha     ",
     category: "Physical",
     value: 10000000,
     demand: "10/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F02nZD6h1%2FBuddha.png&w=640&q=75"
   },
   {
-    id: "Blizzard",
-    name: "Blizzard",
+    id: "Blizzard     ",
+    name: "Blizzard     ",
     category: "Physical",
     value: 5000000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfTDBV72v%2FBlizzard.png&w=640&q=75"
   },
   {
-    id: "Creation",
-    name: "Creation",
+    id: "Creation     ",
+    name: "Creation     ",
     category: "Physical",
     value: 2500000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FHLctq6nT%2FCreation.png&w=640&q=75"
   },
   {
-    id: "Phoenix",
-    name: "Phoenix",
+    id: "Phoenix     ",
+    name: "Phoenix     ",
     category: "Physical",
     value: 2750000,
     demand: "3/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDwbJFHrp%2FPhoenix.png&w=640&q=75"
   },
   {
-    id: "Sound",
-    name: "Sound",
+    id: "Sound     ",
+    name: "Sound     ",
     category: "Physical",
     value: 2500000,
     demand: "4/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
   },
   {
-    id: "Spider",
-    name: "Spider",
+    id: "Spider     ",
+    name: "Spider     ",
     category: "Physical",
     value: 1500000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
   },
   {
-    id: "Love",
-    name: "Love",
+    id: "Love     ",
+    name: "Love     ",
     category: "Physical",
     value: 1500000,
     demand: "3/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NDwGFrK%2FLove.png&w=640&q=75"
   },
   {
-    id: "Magma",
-    name: "Magma",
+    id: "Magma     ",
+    name: "Magma     ",
     category: "Physical",
     value: 1150000,
     demand: "5/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FW3VJ58JW%2FMagma.png&w=640&q=75"
   },
   {
-    id: "Quake",
-    name: "Quake",
+    id: "Quake     ",
+    name: "Quake     ",
     category: "Physical",
     value: 1000000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcJRvt35Q%2FQuake.png&w=640&q=75"
   },
   {
-    id: "Diamond",
-    name: "Diamond",
+    id: "Diamond     ",
+    name: "Diamond     ",
     category: "Physical",
     value: 1000000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F3N7CD7Bw%2FDiamond.png&w=640&q=75"
   },
   {
-    id: "Light",
-    name: "Light",
+    id: "Light     ",
+    name: "Light     ",
     category: "Physical",
     value: 800000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FK8dTMxcy%2FLight.png&w=640&q=75"
   },
   {
-    id: "Ghost",
-    name: "Ghost",
+    id: "Ghost     ",
+    name: "Ghost     ",
     category: "Physical",
     value: 800000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fk4PWk9Ly%2FGhost.png&w=640&q=75"
   },
   {
-    id: "Eagle",
-    name: "Eagle",
+    id: "Eagle     ",
+    name: "Eagle     ",
     category: "Physical",
     value: 800000,
     demand: "2/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsxcPY864%2FEagle.png&w=640&q=75"
   },
   {
-    id: "Rubber",
-    name: "Rubber",
+    id: "Rubber     ",
+    name: "Rubber     ",
     category: "Physical",
     value: 700000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FqRQgjTrq%2FRubber.png&w=640&q=75"
   },
   {
-    id: "Ice",
-    name: "Ice",
+    id: "Ice     ",
+    name: "Ice     ",
     category: "Physical",
     value: 550000,
     demand: "2/10",
@@ -276,79 +276,79 @@ const itemDatabase = [
   },
 
   {
-    id: "Sand",
-    name: "Sand",
+    id: "Sand     ",
+    name: "Sand     ",
     category: "Physical",
     value: 420000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FQxFVkwyN%2FSand.png&w=640&q=75"
   },
   {
-    id: "Dark",
-    name: "Dark",
+    id: "Dark     ",
+    name: "Dark     ",
     category: "Physical",
     value: 400000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NTCP7KD%2FDark.png&w=640&q=75"
   },
   {
-    id: "Flame",
-    name: "Flame",
+    id: "Flame     ",
+    name: "Flame     ",
     category: "Physical",
     value: 250000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8WhRLF0%2FFlame.png&w=640&q=75"
   },
   {
-    id: "Spike",
-    name: "Spike",
+    id: "Spike     ",
+    name: "Spike     ",
     category: "Physical",
     value: 180000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfbNLsLTk%2FSpike.png&w=640&q=75"
   },
   {
-    id: "Smoke",
-    name: "Smoke",
+    id: "Smoke     ",
+    name: "Smoke     ",
     category: "Physical",
     value: 100000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FnVRCmpTw%2FSmoke.png&w=640&q=75"
   },{
-    id: "Bomb",
-    name: "Bomb",
+    id: "Bomb     ",
+    name: "Bomb     ",
     category: "Physical",
     value: 80000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8NjP1zg%2FBomb.png&w=1920&q=75"
   },
   {
-    id: "Spring",
-    name: "Spring",
+    id: "Spring     ",
+    name: "Spring     ",
     category: "Physical",
     value: 60000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F15r7B7nT%2FSpring.png&w=1920&q=75"
   },
   {
-    id: "Blade",
-    name: "Blade",
+    id: "Blade     ",
+    name: "Blade     ",
     category: "Physical",
     value: 50000,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FbYQmYVTJ%2FBlade.png&w=1920&q=75"
   },
   {
-    id: "Spin",
-    name: "Spin",
+    id: "Spin     ",
+    name: "Spin     ",
     category: "Physical",
     value: 7500,
     demand: "1/10",
     image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fjj4jSbLc%2FSpin.png&w=1920&q=75"
   },
   {
-    id: "Rocket",
-    name: "Rocket",
+    id: "Rocket     ",
+    name: "Rocket     ",
     category: "Physical",
     value: 5000,
     demand: "1/10",
