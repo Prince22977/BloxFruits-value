@@ -356,24 +356,338 @@ const itemDatabase = [
   },
 
   // Permanent Fruits
+  
+   {
+    id: "Perm Dragon     ", 
+    name: "Perm Dragon     ", 
+    category: "Permanent",
+    value: "7.42B", 
+    demand: "9/10",  
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FgkzHzzjS%2FEast-Dragon.png&w=640&q=95" 
+  },
   { 
-    id: "perm-kitsune", 
-    name: "Perm Kitsune", 
-    category: "Perm", 
-    value: 1200000000, 
+    id: "Perm kitsune     ", 
+    name: "Perm Kitsune     ", 
+    category: "Permanent", 
+    value: "6.23B", 
     demand: "10/10", 
-    image: "https://static.wikia.nocookie.net/bloxfruits/images/e/e4/KitsunePhysical.png" 
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FCLxbycr9%2FKitsune.png&w=640&q=95" 
+  },
+  { 
+    id: "Perm Control     ", 
+    name: "Perm Control     ", 
+    category: "Permanent", 
+    value: "6.23B", 
+    demand: "10/10", 
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Ft48L8bFV%2Flatest-cb-20251223165924.webp&w=640&q=95" 
+  },
+  { 
+    id: "Perm Yeti     ", 
+    name: "Perm Yeti     ", 
+    category: "Permanent", 
+    value: "5.04B", 
+    demand: "9/10", 
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FmrJmk0Jc%2FYeti.png&w=640&q=95" 
+  },
+  { 
+    id: "Perm Gas     ", 
+    name: "Perm Gas     ", 
+    category: "Permanent", 
+    value: "4.36B", 
+    demand: "7/10", 
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FXNCpc4fS%2F1000-cb-20241223162315.webp&w=640&q=95" 
+  },
+  {
+    id: "Perm Tiger     ",
+    name: "Perm Tiger     ",
+    category: "Permanent",
+    value: "5.04B",
+    demand: "9/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FvBDS3KNp%2Fdownload.png&w=640&q=95"
+  },
+  {
+    id: "Perm Lightning     ",
+    name: "Perm Lightning     ",
+    category: "Permanent",
+    value: "2.65B",
+    demand: "8/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMHTHLFZD%2FRumble.png&w=640&q=95"
+  },
+  {
+    id: "Perm Venom     ",
+    name: "Perm Venom     ",
+    category: "Permanent",
+    value: 3.85e9,
+    demand: "7/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGdtZLkF%2FVenom.png&w=640&q=95"
+  },
+  {
+    id: "Perm Dough     ",
+    name: "Perm Dough     ",
+    category: "Permanent",
+    value: 3.85e9,
+    demand: "8/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwxckYyqR%2FDough.png&w=640&q=95"
+  },
+  {
+    id: "Perm Pain     ",
+    name: "Perm Pain     ",
+    category: "Permanent",
+    value: 2.82e9,
+    demand: "8/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fmk21srj7%2FPain.png&w=640&q=95"
+  },
+  {
+    id: "Perm T-Rex     ",
+    name: "Perm T-Rex     ",
+    category: "Permanent",
+    value: 3.85e9,
+    demand: "8/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGDtcwTf%2FT-Rex.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Gravity     ",
+    name: "Perm Gravity     ",
+    category: "Permanent",
+    value: 3.34e9,
+    demand: "7/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FD02Lw6vJ%2FGravity.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Mammoth     ",
+    name: "Perm Mammoth     ",
+    category: "Permanent",
+    value: 3.85e9,
+    demand: "6/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsXJGqWYV%2FMammoth.png&w=1080&q=75"
+  },
+  {
+    id: "Perm Spirit     ",
+    name: "Perm Spirit     ",
+    category: "Permanent",
+    value: 4.36e9,
+    demand: "5/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwTpbhYvL%2FSpirit.png&w=640&q=95"
+  },
+  {
+    id: "Perm Shadow     ",
+    name: "Perm Shadow     ",
+    category: "Permanent",
+    value: 3.85e9,
+    demand: "5/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FkGpGPvBd%2FShadow.png&w=1920&q=95"
+  },
+  {
+    id: "Perm Portal     ",
+    name: "Perm Portal     ",
+    category: "Permanent",
+    value: 2.39e9,
+    demand: "9/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDzkWz65v%2FPortal.png&w=640&q=75"
+  },
+  {
+    id: "Perm Buddha     ",
+    name: "Perm Buddha     ",
+    category: "Permanent",
+    value: 1.83e9,
+    demand: "10/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F02nZD6h1%2FBuddha.png&w=640&q=75"
+  },
+  {
+    id: "Perm Blizzard     ",
+    name: "Perm Blizzard     ",
+    category: "Permanent",
+    value: 2.86e9,
+    demand: "6/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfTDBV72v%2FBlizzard.png&w=640&q=75"
+  },
+  {
+    id: "Perm Creation     ",
+    name: "Perm Creation     ",
+    category: "Permanent",
+    value: 1.96e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FHLctq6nT%2FCreation.png&w=640&q=75"
+  },
+  {
+    id: "Perm Phoenix     ",
+    name: "Perm Phoenix     ",
+    category: "Permanent",
+    value: 2.39e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDwbJFHrp%2FPhoenix.png&w=640&q=75"
+  },
+  {
+    id: "Perm Sound     ",
+    name: "Perm Sound     ",
+    category: "Permanent",
+    value: 2.22e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+  },
+  {
+    id: "Perm Spider     ",
+    name: "Perm Spider     ",
+    category: "Permanent",
+    value: 2.05e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+  },
+  {
+    id: "Perm Love     ",
+    name: "Perm Love     ",
+    category: "Permanent",
+    value: 1.87e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NDwGFrK%2FLove.png&w=640&q=75"
+  },
+  {
+    id: "Perm Magma     ",
+    name: "Perm Magma     ",
+    category: "Permanent",
+    value: 1.23e9,
+    demand: "7/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FW3VJ58JW%2FMagma.png&w=640&q=75"
+  },
+  {
+    id: "Perm Quake     ",
+    name: "Perm Quake     ",
+    category: "Permanent",
+    value: 1.49e9,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcJRvt35Q%2FQuake.png&w=640&q=75"
+  },
+  {
+    id: "Perm Diamond     ",
+    name: "Perm Diamond     ",
+    category: "Permanent",
+    value: 900000000,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F3N7CD7Bw%2FDiamond.png&w=640&q=75"
+  },
+  {
+    id: "Perm Light     ",
+    name: "Perm Light     ",
+    category: "Permanent",
+    value: 1.07e9,
+    demand: "7/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FK8dTMxcy%2FLight.png&w=640&q=75"
+  },
+  {
+    id: "Perm Ghost     ",
+    name: "Perm Ghost     ",
+    category: "Permanent",
+    value: 1.17e9,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fk4PWk9Ly%2FGhost.png&w=640&q=75"
+  },
+  {
+    id: "Perm Eagle     ",
+    name: "Perm Eagle     ",
+    category: "Permanent",
+    value: 880000000,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsxcPY864%2FEagle.png&w=640&q=75"
+  },
+  {
+    id: "Perm Rubber     ",
+    name: "Perm Rubber     ",
+    category: "Permanent",
+    value: 111000000,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FqRQgjTrq%2FRubber.png&w=640&q=75"
+  },
+  {
+    id: "Perm Ice     ",
+    name: "Perm Ice     ",
+    category: "Permanent",
+    value: 680000000,
+    demand: "6/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzDjTPs7n%2FIce.png&w=640&q=75"
+  },
+
+  {
+    id: "Perm Sand     ",
+    name: "Perm Sand  ",
+    category: "Permanent",
+    value: 770000000,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FQxFVkwyN%2FSand.png&w=640&q=75"
+  },
+  {
+    id: "Perm Dark     ",
+    name: "Perm Dark  ",
+    category: "Permanent",
+    value: 860000000,
+    demand: "3/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NTCP7KD%2FDark.png&w=640&q=75"
+  },
+  {
+    id: "Perm Flame     ",
+    name: "Perm Flame   ",
+    category: "Permanent",
+    value: 450000000,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8WhRLF0%2FFlame.png&w=640&q=75"
+  },
+  {
+    id: "Perm Spike     ",
+    name: "Perm Spike   ",
+    category: "Permanent",
+    value: 140000000,
+    demand: "1/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfbNLsLTk%2FSpike.png&w=640&q=75"
+  },
+  {
+    id: "Perm Smoke     ",
+    name: "Perm Smoke     ",
+    category: "Permanent",
+    value: 120000000,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FnVRCmpTw%2FSmoke.png&w=640&q=75"
+  },{
+    id: "Perm Bomb     ",
+    name: "Perm Bomb     ",
+    category: "Permanent",
+    value: 90000000,
+    demand: "1/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8NjP1zg%2FBomb.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Spring     ",
+    name: "Perm Spring     ",
+    category: "Permanent",
+    value: 60000000,
+    demand: "1/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F15r7B7nT%2FSpring.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Blade     ",
+    name: "Perm Blade     ",
+    category: "Permanent",
+    value: 20000000,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FbYQmYVTJ%2FBlade.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Spin     ",
+    name: "Perm Spin     ",
+    category: "Permanent",
+    value: 15000000,
+    demand: "1/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fjj4jSbLc%2FSpin.png&w=1920&q=75"
+  },
+  {
+    id: "Perm Rocket     ",
+    name: "Perm Rocket     ",
+    category: "Permanent",
+    value: 10000000,
+    demand: "2/10",
+    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcHdrRJVP%2FRocket.png&w=1080&q=75"
   },
 
   // Gamepasses
-  { 
-    id: "dark-blade", 
-    name: "Dark Blade", 
-    category: "Gamepass", 
-    value: 450000000, 
-    demand: "9/10", 
-    image: "https://static.wikia.nocookie.net/bloxfruits/images/6/6c/Dark_Blade.png" 
-  }
+  
 ];
 
 // Helper fallback function in case an image URL breaks
