@@ -360,7 +360,7 @@ const itemDatabase = [
     id: "Perm Dragon     ", 
     name: "Perm Dragon     ", 
     category: "Permanent",
-    value: "7.42B", 
+    value: "8.05B", 
     demand: "9/10",  
     image: "https://img.bloxfruitcalculator.org/fruits/EastDragonFruit.png"
   },
@@ -368,7 +368,7 @@ const itemDatabase = [
     id: "Perm kitsune     ", 
     name: "Perm Kitsune     ", 
     category: "Permanent", 
-    value: "6.23B", 
+    value: "6.98B", 
     demand: "10/10", 
     image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
@@ -376,7 +376,7 @@ const itemDatabase = [
     id: "Perm Control     ", 
     name: "Perm Control     ", 
     category: "Permanent", 
-    value: "6.23B", 
+    value: "6.98B", 
     demand: "10/10", 
     image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
@@ -384,7 +384,7 @@ const itemDatabase = [
     id: "Perm Yeti     ", 
     name: "Perm Yeti     ", 
     category: "Permanent", 
-    value: "5.04B", 
+    value: "5.66B", 
     demand: "9/10", 
     image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
@@ -392,7 +392,7 @@ const itemDatabase = [
     id: "Perm Gas     ", 
     name: "Perm Gas     ", 
     category: "Permanent", 
-    value: "4.36B", 
+    value: "5B", 
     demand: "7/10", 
     image: "https://i.postimg.cc/XNCpc4fS/1000-cb-20241223162315.webp" 
   },
@@ -400,7 +400,7 @@ const itemDatabase = [
     id: "Perm Tiger     ",
     name: "Perm Tiger     ",
     category: "Permanent",
-    value: "5.04B",
+    value: "5.66B",
     demand: "9/10",
     image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
@@ -408,7 +408,7 @@ const itemDatabase = [
     id: "Perm Lightning     ",
     name: "Perm Lightning     ",
     category: "Permanent",
-    value: "2.65B",
+    value: "3.52B",
     demand: "8/10",
     image: "https://i.postimg.cc/MHTHLFZD/Rumble.png"
   },
@@ -416,7 +416,7 @@ const itemDatabase = [
     id: "Perm Venom     ",
     name: "Perm Venom     ",
     category: "Permanent",
-    value: "3.85B",
+    value: "4.84B",
     demand: "7/10",
     image: "https://i.postimg.cc/zGdtZLkF/Venom.png"
   },
@@ -424,7 +424,7 @@ const itemDatabase = [
     id: "Perm Dough     ",
     name: "Perm Dough     ",
     category: "Permanent",
-    value: "3.85B",
+    value: "4.68B",
     demand: "8/10",
     image: "https://i.postimg.cc/wxckYyqR/Dough.png"
   },
@@ -432,7 +432,7 @@ const itemDatabase = [
     id: "Perm Pain     ",
     name: "Perm Pain     ",
     category: "Permanent",
-    value: "2.82B",
+    value: "3.84B",
     demand: "8/10",
     image: "https://i.postimg.cc/mk21srj7/Pain.png"
   },
@@ -440,7 +440,7 @@ const itemDatabase = [
     id: "Perm T-Rex     ",
     name: "Perm T-Rex     ",
     category: "Permanent",
-    value: "3.85B",
+    value: "4.52B",
     demand: "8/10",
     image: "https://i.postimg.cc/zGDtcwTf/T-Rex.png"
   },
@@ -448,7 +448,7 @@ const itemDatabase = [
     id: "Perm Gravity     ",
     name: "Perm Gravity     ",
     category: "Permanent",
-    value: "3.34B",
+    value: "4.36B",
     demand: "7/10",
     image: "https://i.postimg.cc/D02Lw6vJ/Gravity.png"
   },
@@ -456,7 +456,7 @@ const itemDatabase = [
     id: "Perm Mammoth     ",
     name: "Perm Mammoth     ",
     category: "Permanent",
-    value: "3.85B",
+    value: "4.52B",
     demand: "6/10",
     image: "https://i.postimg.cc/sXJGqWYV/Mammoth.png"
   },
@@ -464,7 +464,7 @@ const itemDatabase = [
     id: "Perm Spirit     ",
     name: "Perm Spirit     ",
     category: "Permanent",
-    value: "4.36B",
+    value: "5.16B",
     demand: "5/10",
     image: "https://i.postimg.cc/wTpbhYvL/Spirit.png"
   },
@@ -472,7 +472,7 @@ const itemDatabase = [
     id: "Perm Shadow     ",
     name: "Perm Shadow     ",
     category: "Permanent",
-    value: "3.85B",
+    value: "4.76B",
     demand: "5/10",
     image: "https://i.postimg.cc/kGpGPvBd/Shadow.png"
   },
@@ -480,7 +480,7 @@ const itemDatabase = [
     id: "Perm Portal     ",
     name: "Perm Portal     ",
     category: "Permanent",
-    value: "2.39B",
+    value: "3.04B",
     demand: "9/10",
     image: "https://i.postimg.cc/DzkWz65v/Portal.png"
   },
@@ -488,7 +488,7 @@ const itemDatabase = [
     id: "Perm Buddha     ",
     name: "Perm Buddha     ",
     category: "Permanent",
-    value: "1.83B",
+    value: "2B",
     demand: "10/10",
     image: "https://i.postimg.cc/02nZD6h1/Buddha.png"
   },
@@ -496,7 +496,7 @@ const itemDatabase = [
     id: "Perm Blizzard     ",
     name: "Perm Blizzard     ",
     category: "Permanent",
-    value: "2.86B",
+    value: "3.92B",
     demand: "6/10",
     image: "https://i.postimg.cc/fTDBV72v/Blizzard.png"
   },
@@ -504,7 +504,7 @@ const itemDatabase = [
     id: "Perm Creation     ",
     name: "Perm Creation     ",
     category: "Permanent",
-    value: "1.96B",
+    value: "2.24B",
     demand: "3/10",
     image: "https://i.postimg.cc/HLctq6nT/Creation.png"
   },
@@ -512,7 +512,7 @@ const itemDatabase = [
     id: "Perm Phoenix     ",
     name: "Perm Phoenix     ",
     category: "Permanent",
-    value: "2.39B",
+    value: "3.04B",
     demand: "3/10",
     image: "https://i.postimg.cc/DwbJFHrp/Phoenix.png"
   },
@@ -520,7 +520,7 @@ const itemDatabase = [
     id: "Perm Sound     ",
     name: "Perm Sound     ",
     category: "Permanent",
-    value: "2.22B",
+    value: "2.72B",
     demand: "3/10",
     image: "https://i.postimg.cc/MKgHs5C7/Sound.png"
   },
@@ -528,7 +528,7 @@ const itemDatabase = [
     id: "Perm Spider     ",
     name: "Perm Spider     ",
     category: "Permanent",
-    value: "2.05B",
+    value: "2.4B",
     demand: "3/10",
     image: "https://i.postimg.cc/MpRTgRwh/Spider.png"
   },
@@ -536,7 +536,7 @@ const itemDatabase = [
     id: "Perm Love     ",
     name: "Perm Love     ",
     category: "Permanent",
-    value: "1.87B",
+    value: "2.08B",
     demand: "3/10",
     image: "https://i.postimg.cc/0NDwGFrK/Love.png"
   },
@@ -544,7 +544,7 @@ const itemDatabase = [
     id: "Perm Magma     ",
     name: "Perm Magma     ",
     category: "Permanent",
-    value: "1.23B",
+    value: "1.28B",
     demand: "7/10",
     image: "https://i.postimg.cc/W3VJ58JW/Magma.png"
   },
@@ -552,7 +552,7 @@ const itemDatabase = [
     id: "Perm Quake     ",
     name: "Perm Quake     ",
     category: "Permanent",
-    value: "1.49B",
+    value: "1.52B",
     demand: "3/10",
     image: "https://i.postimg.cc/cJRvt35Q/Quake.png"
   },
@@ -560,7 +560,7 @@ const itemDatabase = [
     id: "Perm Diamond     ",
     name: "Perm Diamond     ",
     category: "Permanent",
-    value: "900M",
+    value: "840M",
     demand: "3/10",
     image: "https://i.postimg.cc/3N7CD7Bw/Diamond.png"
   },
@@ -568,7 +568,7 @@ const itemDatabase = [
     id: "Perm Light     ",
     name: "Perm Light     ",
     category: "Permanent",
-    value: "1.07B",
+    value: "960M",
     demand: "7/10",
     image: "https://i.postimg.cc/K8dTMxcy/Light.png"
   },
@@ -576,7 +576,7 @@ const itemDatabase = [
     id: "Perm Ghost     ",
     name: "Perm Ghost     ",
     category: "Permanent",
-    value: "1.17B",
+    value: "1.16B",
     demand: "2/10",
     image: "https://i.postimg.cc/k4PWk9Ly/Ghost.png"
   },
@@ -584,7 +584,7 @@ const itemDatabase = [
     id: "Perm Eagle     ",
     name: "Perm Eagle     ",
     category: "Permanent",
-    value: "880M",
+    value: "820M",
     demand: "3/10",
     image: "https://i.postimg.cc/sxcPY864/Eagle.png"
   },
@@ -592,7 +592,7 @@ const itemDatabase = [
     id: "Perm Rubber     ",
     name: "Perm Rubber     ",
     category: "Permanent",
-    value: "111M",
+    value: "104M",
     demand: "3/10",
     image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
@@ -600,7 +600,7 @@ const itemDatabase = [
     id: "Perm Ice     ",
     name: "Perm Ice     ",
     category: "Permanent",
-    value: "680M",
+    value: "640M",
     demand: "6/10",
     image: "https://i.postimg.cc/zDjTPs7n/Ice.png"
   },
@@ -609,7 +609,7 @@ const itemDatabase = [
     id: "Perm Sand     ",
     name: "Perm Sand  ",
     category: "Permanent",
-    value: "770M",
+    value: "720M",
     demand: "2/10",
     image: "https://i.postimg.cc/QxFVkwyN/Sand.png"
   },
@@ -617,7 +617,7 @@ const itemDatabase = [
     id: "Perm Dark     ",
     name: "Perm Dark  ",
     category: "Permanent",
-    value: "860M",
+    value: "800M",
     demand: "3/10",
     image: "https://i.postimg.cc/0NTCP7KD/Dark.png"
   },
