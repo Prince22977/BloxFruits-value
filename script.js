@@ -24,7 +24,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "5.55B", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F7LfBxxs8%2FWest-Dragon.png&w=1920&q=95" 
+    image: "https://i.postimg.cc/7LfBxxs8/West-Dragon.png" 
   },
    {
     id: "East Dragon     ", 
@@ -32,7 +32,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "5.4B", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FgkzHzzjS%2FEast-Dragon.png&w=640&q=95" 
+    image: "https://i.postimg.cc/gkzHzzjS/East-Dragon.png" 
   },
   { 
     id: "kitsune     ", 
@@ -40,7 +40,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "680M", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FCLxbycr9%2FKitsune.png&w=640&q=95" 
+    image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
   { 
     id: "Control     ", 
@@ -48,7 +48,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "170M", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Ft48L8bFV%2Flatest-cb-20251223165924.webp&w=640&q=95" 
+    image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
   { 
     id: "Yeti     ", 
@@ -56,7 +56,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "130M", 
     demand: "8/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FmrJmk0Jc%2FYeti.png&w=640&q=95" 
+    image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
   { 
     id: "Gas     ", 
@@ -64,7 +64,7 @@ const itemDatabase = [
     category: "Physical", 
     value: "60M", 
     demand: "8/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FXNCpc4fS%2F1000-cb-20241223162315.webp&w=640&q=95" 
+    image: "https://i.postimg.cc/XNCpc4fS/1000-cb-20241223162315.webp" 
   },
   {
     id: "Tiger     ",
@@ -72,7 +72,7 @@ const itemDatabase = [
     category: "Physical",
     value: "140M",
     demand: "9/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FvBDS3KNp%2Fdownload.png&w=640&q=95"
+    image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
   {
     id: "Lightning     ",
@@ -80,7 +80,7 @@ const itemDatabase = [
     category: "Physical",
     value: "50M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMHTHLFZD%2FRumble.png&w=640&q=95"
+    image: "https://i.postimg.cc/MHTHLFZD/Rumble.png"
   },
   {
     id: "Venom     ",
@@ -88,7 +88,7 @@ const itemDatabase = [
     category: "Physical",
     value: "20M",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGdtZLkF%2FVenom.png&w=640&q=95"
+    image: "https://i.postimg.cc/zGdtZLkF/Venom.png"
   },
   {
     id: "Dough     ",
@@ -96,7 +96,7 @@ const itemDatabase = [
     category: "Physical",
     value: "30M",
     demand: "9/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwxckYyqR%2FDough.png&w=640&q=95"
+    image: "https://i.postimg.cc/wxckYyqR/Dough.png"
   },
   {
     id: "Pain     ",
@@ -104,7 +104,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fmk21srj7%2FPain.png&w=640&q=95"
+    image: "https://i.postimg.cc/mk21srj7/Pain.png"
   },
   {
     id: "T-Rex     ",
@@ -112,7 +112,7 @@ const itemDatabase = [
     category: "Physical",
     value: "20M",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGDtcwTf%2FT-Rex.png&w=1920&q=75"
+    image: "https://i.postimg.cc/zGDtcwTf/T-Rex.png"
   },
   {
     id: "Gravity     ",
@@ -120,7 +120,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FD02Lw6vJ%2FGravity.png&w=1920&q=75"
+    image: "https://i.postimg.cc/D02Lw6vJ/Gravity.png"
   },
   {
     id: "Mammoth     ",
@@ -128,7 +128,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsXJGqWYV%2FMammoth.png&w=1080&q=75"
+    image: "https://i.postimg.cc/sXJGqWYV/Mammoth.png"
   },
   {
     id: "Spirit     ",
@@ -136,7 +136,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "7/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwTpbhYvL%2FSpirit.png&w=640&q=95"
+    image: "https://i.postimg.cc/wTpbhYvL/Spirit.png"
   },
   {
     id: "Shadow     ",
@@ -144,7 +144,7 @@ const itemDatabase = [
     category: "Physical",
     value: "6.5M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FkGpGPvBd%2FShadow.png&w=1920&q=95"
+    image: "https://i.postimg.cc/kGpGPvBd/Shadow.png"
   },
   {
     id: "Portal     ",
@@ -152,7 +152,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "10/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDzkWz65v%2FPortal.png&w=640&q=75"
+    image: "https://i.postimg.cc/DzkWz65v/Portal.png"
   },
   {
     id: "Buddha     ",
@@ -160,7 +160,7 @@ const itemDatabase = [
     category: "Physical",
     value: "10M",
     demand: "10/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F02nZD6h1%2FBuddha.png&w=640&q=75"
+    image: "https://i.postimg.cc/02nZD6h1/Buddha.png"
   },
   {
     id: "Blizzard     ",
@@ -168,7 +168,7 @@ const itemDatabase = [
     category: "Physical",
     value: "5M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfTDBV72v%2FBlizzard.png&w=640&q=75"
+    image: "https://i.postimg.cc/fTDBV72v/Blizzard.png"
   },
   {
     id: "Creation     ",
@@ -176,7 +176,7 @@ const itemDatabase = [
     category: "Physical",
     value: "25M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FHLctq6nT%2FCreation.png&w=640&q=75"
+    image: "https://i.postimg.cc/HLctq6nT/Creation.png"
   },
   {
     id: "Phoenix     ",
@@ -184,7 +184,7 @@ const itemDatabase = [
     category: "Physical",
     value: "27.5M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDwbJFHrp%2FPhoenix.png&w=640&q=75"
+    image: "https://i.postimg.cc/DwbJFHrp/Phoenix.png"
   },
   {
     id: "Sound     ",
@@ -192,7 +192,7 @@ const itemDatabase = [
     category: "Physical",
     value: "25M",
     demand: "4/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+    image: "https://i.postimg.cc/MKgHs5C7/Sound.png"
   },
   {
     id: "Spider     ",
@@ -200,7 +200,7 @@ const itemDatabase = [
     category: "Physical",
     value: "1.5M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+    image: "https://i.postimg.cc/MpRTgRwh/Spider.png"
   },
   {
     id: "Love     ",
@@ -208,7 +208,7 @@ const itemDatabase = [
     category: "Physical",
     value: "1.5M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NDwGFrK%2FLove.png&w=640&q=75"
+    image: "https://i.postimg.cc/0NDwGFrK/Love.png"
   },
   {
     id: "Magma     ",
@@ -216,7 +216,7 @@ const itemDatabase = [
     category: "Physical",
     value: "1.15M",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FW3VJ58JW%2FMagma.png&w=640&q=75"
+    image: "https://i.postimg.cc/W3VJ58JW/Magma.png"
   },
   {
     id: "Quake     ",
@@ -224,7 +224,7 @@ const itemDatabase = [
     category: "Physical",
     value: "1M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcJRvt35Q%2FQuake.png&w=640&q=75"
+    image: "https://i.postimg.cc/cJRvt35Q/Quake.png"
   },
   {
     id: "Diamond     ",
@@ -232,7 +232,7 @@ const itemDatabase = [
     category: "Physical",
     value: "1M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F3N7CD7Bw%2FDiamond.png&w=640&q=75"
+    image: "https://i.postimg.cc/3N7CD7Bw/Diamond.png"
   },
   {
     id: "Light     ",
@@ -240,7 +240,7 @@ const itemDatabase = [
     category: "Physical",
     value: "800K",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FK8dTMxcy%2FLight.png&w=640&q=75"
+    image: "https://i.postimg.cc/K8dTMxcy/Light.png"
   },
   {
     id: "Ghost     ",
@@ -248,7 +248,7 @@ const itemDatabase = [
     category: "Physical",
     value: "800K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fk4PWk9Ly%2FGhost.png&w=640&q=75"
+    image: "https://i.postimg.cc/k4PWk9Ly/Ghost.png"
   },
   {
     id: "Eagle     ",
@@ -256,7 +256,7 @@ const itemDatabase = [
     category: "Physical",
     value: "800K",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsxcPY864%2FEagle.png&w=640&q=75"
+    image: "https://i.postimg.cc/sxcPY864/Eagle.png"
   },
   {
     id: "Rubber     ",
@@ -264,7 +264,7 @@ const itemDatabase = [
     category: "Physical",
     value: "700K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FqRQgjTrq%2FRubber.png&w=640&q=75"
+    image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
   {
     id: "Ice     ",
@@ -272,7 +272,7 @@ const itemDatabase = [
     category: "Physical",
     value: "550K",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzDjTPs7n%2FIce.png&w=640&q=75"
+    image: "https://i.postimg.cc/zDjTPs7n/Ice.png"
   },
   {
     id: "Sand     ",
@@ -280,7 +280,7 @@ const itemDatabase = [
     category: "Physical",
     value: "420K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FQxFVkwyN%2FSand.png&w=640&q=75"
+    image: "https://i.postimg.cc/QxFVkwyN/Sand.png"
   },
   {
     id: "Dark     ",
@@ -288,7 +288,7 @@ const itemDatabase = [
     category: "Physical",
     value: "400K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NTCP7KD%2FDark.png&w=640&q=75"
+    image: "https://i.postimg.cc/0NTCP7KD/Dark.png"
   },
   {
     id: "Flame     ",
@@ -296,7 +296,7 @@ const itemDatabase = [
     category: "Physical",
     value: "250K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8WhRLF0%2FFlame.png&w=640&q=75"
+    image: "https://i.postimg.cc/y8WhRLF0/Flame.png"
   },
   {
     id: "Spike     ",
@@ -304,7 +304,7 @@ const itemDatabase = [
     category: "Physical",
     value: "180K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfbNLsLTk%2FSpike.png&w=640&q=75"
+    image: "https://i.postimg.cc/fbNLsLTk/Spike.png"
   },
   {
     id: "Smoke     ",
@@ -312,14 +312,14 @@ const itemDatabase = [
     category: "Physical",
     value: "100K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FnVRCmpTw%2FSmoke.png&w=640&q=75"
+    image: "https://i.postimg.cc/nVRCmpTw/Smoke.png"
   },{
     id: "Bomb     ",
     name: "Bomb     ",
     category: "Physical",
     value: "80K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8NjP1zg%2FBomb.png&w=1920&q=75"
+    image: "https://i.postimg.cc/y8NjP1zg/Bomb.png"
   },
   {
     id: "Spring     ",
@@ -327,7 +327,7 @@ const itemDatabase = [
     category: "Physical",
     value: "60K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F15r7B7nT%2FSpring.png&w=1920&q=75"
+    image: "https://i.postimg.cc/15r7B7nT/Spring.png"
   },
   {
     id: "Blade     ",
@@ -335,7 +335,7 @@ const itemDatabase = [
     category: "Physical",
     value: "50K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FbYQmYVTJ%2FBlade.png&w=1920&q=75"
+    image: "https://i.postimg.cc/bYQmYVTJ/Blade.png"
   },
   {
     id: "Spin     ",
@@ -343,7 +343,7 @@ const itemDatabase = [
     category: "Physical",
     value: "7.5K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fjj4jSbLc%2FSpin.png&w=1920&q=75"
+    image: "https://i.postimg.cc/jj4jSbLc/Spin.png"
   },
   {
     id: "Rocket     ",
@@ -351,7 +351,7 @@ const itemDatabase = [
     category: "Physical",
     value: "5K",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcHdrRJVP%2FRocket.png&w=1080&q=75"
+    image: "https://i.postimg.cc/cHdrRJVP/Rocket.png"
   },
 
   // Permanent Fruits
@@ -362,7 +362,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "7.42B", 
     demand: "9/10",  
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FgkzHzzjS%2FEast-Dragon.png&w=640&q=95" 
+    image: "https://img.bloxfruitcalculator.org/fruits/EastDragonFruit.png"
   },
   { 
     id: "Perm kitsune     ", 
@@ -370,7 +370,7 @@ const itemDatabase = [
     category: "Permanent", 
     value: "6.23B", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FCLxbycr9%2FKitsune.png&w=640&q=95" 
+    image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
   { 
     id: "Perm Control     ", 
@@ -378,7 +378,7 @@ const itemDatabase = [
     category: "Permanent", 
     value: "6.23B", 
     demand: "10/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Ft48L8bFV%2Flatest-cb-20251223165924.webp&w=640&q=95" 
+    image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
   { 
     id: "Perm Yeti     ", 
@@ -386,7 +386,7 @@ const itemDatabase = [
     category: "Permanent", 
     value: "5.04B", 
     demand: "9/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FmrJmk0Jc%2FYeti.png&w=640&q=95" 
+    image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
   { 
     id: "Perm Gas     ", 
@@ -394,7 +394,7 @@ const itemDatabase = [
     category: "Permanent", 
     value: "4.36B", 
     demand: "7/10", 
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FXNCpc4fS%2F1000-cb-20241223162315.webp&w=640&q=95" 
+    image: "https://i.postimg.cc/XNCpc4fS/1000-cb-20241223162315.webp" 
   },
   {
     id: "Perm Tiger     ",
@@ -402,7 +402,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "5.04B",
     demand: "9/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FvBDS3KNp%2Fdownload.png&w=640&q=95"
+    image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
   {
     id: "Perm Lightning     ",
@@ -410,7 +410,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.65B",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMHTHLFZD%2FRumble.png&w=640&q=95"
+    image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
   {
     id: "Perm Venom     ",
@@ -418,7 +418,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.85B",
     demand: "7/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGdtZLkF%2FVenom.png&w=640&q=95"
+    image: "https://i.postimg.cc/zGdtZLkF/Venom.png"
   },
   {
     id: "Perm Dough     ",
@@ -426,7 +426,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.85B",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwxckYyqR%2FDough.png&w=640&q=95"
+    image: "https://i.postimg.cc/wxckYyqR/Dough.png"
   },
   {
     id: "Perm Pain     ",
@@ -434,7 +434,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.82B",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fmk21srj7%2FPain.png&w=640&q=95"
+    image: "https://i.postimg.cc/mk21srj7/Pain.png"
   },
   {
     id: "Perm T-Rex     ",
@@ -442,7 +442,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.85B",
     demand: "8/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzGDtcwTf%2FT-Rex.png&w=1920&q=75"
+    image: "https://i.postimg.cc/zGDtcwTf/T-Rex.png"
   },
   {
     id: "Perm Gravity     ",
@@ -450,7 +450,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.34B",
     demand: "7/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FD02Lw6vJ%2FGravity.png&w=1920&q=75"
+    image: "https://i.postimg.cc/D02Lw6vJ/Gravity.png"
   },
   {
     id: "Perm Mammoth     ",
@@ -458,7 +458,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.85B",
     demand: "6/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsXJGqWYV%2FMammoth.png&w=1080&q=75"
+    image: "https://i.postimg.cc/sXJGqWYV/Mammoth.png"
   },
   {
     id: "Perm Spirit     ",
@@ -466,7 +466,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "4.36B",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FwTpbhYvL%2FSpirit.png&w=640&q=95"
+    image: "https://i.postimg.cc/wTpbhYvL/Spirit.png"
   },
   {
     id: "Perm Shadow     ",
@@ -474,7 +474,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "3.85B",
     demand: "5/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FkGpGPvBd%2FShadow.png&w=1920&q=95"
+    image: "https://i.postimg.cc/kGpGPvBd/Shadow.png"
   },
   {
     id: "Perm Portal     ",
@@ -482,7 +482,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.39B",
     demand: "9/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDzkWz65v%2FPortal.png&w=640&q=75"
+    image: "https://i.postimg.cc/DzkWz65v/Portal.png"
   },
   {
     id: "Perm Buddha     ",
@@ -490,7 +490,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.83B",
     demand: "10/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F02nZD6h1%2FBuddha.png&w=640&q=75"
+    image: "https://i.postimg.cc/02nZD6h1/Buddha.png"
   },
   {
     id: "Perm Blizzard     ",
@@ -498,7 +498,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.86B",
     demand: "6/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfTDBV72v%2FBlizzard.png&w=640&q=75"
+    image: "https://i.postimg.cc/fTDBV72v/Blizzard.png"
   },
   {
     id: "Perm Creation     ",
@@ -506,7 +506,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.96B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FHLctq6nT%2FCreation.png&w=640&q=75"
+    image: "https://i.postimg.cc/HLctq6nT/Creation.png"
   },
   {
     id: "Perm Phoenix     ",
@@ -514,7 +514,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.39B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FDwbJFHrp%2FPhoenix.png&w=640&q=75"
+    image: "https://i.postimg.cc/DwbJFHrp/Phoenix.png"
   },
   {
     id: "Perm Sound     ",
@@ -522,7 +522,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.22B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+    image: "https://i.postimg.cc/MKgHs5C7/Sound.png"
   },
   {
     id: "Perm Spider     ",
@@ -530,7 +530,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.05B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FMKgHs5C7%2FSound.png&w=640&q=75"
+    image: "https://i.postimg.cc/MpRTgRwh/Spider.png"
   },
   {
     id: "Perm Love     ",
@@ -538,7 +538,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.87B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NDwGFrK%2FLove.png&w=640&q=75"
+    image: "https://i.postimg.cc/0NDwGFrK/Love.png"
   },
   {
     id: "Perm Magma     ",
@@ -546,7 +546,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.23B",
     demand: "7/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FW3VJ58JW%2FMagma.png&w=640&q=75"
+    image: "https://i.postimg.cc/W3VJ58JW/Magma.png"
   },
   {
     id: "Perm Quake     ",
@@ -554,7 +554,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.49B",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcJRvt35Q%2FQuake.png&w=640&q=75"
+    image: "https://i.postimg.cc/cJRvt35Q/Quake.png"
   },
   {
     id: "Perm Diamond     ",
@@ -562,7 +562,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "900M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F3N7CD7Bw%2FDiamond.png&w=640&q=75"
+    image: "https://i.postimg.cc/3N7CD7Bw/Diamond.png"
   },
   {
     id: "Perm Light     ",
@@ -570,7 +570,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.07B",
     demand: "7/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FK8dTMxcy%2FLight.png&w=640&q=75"
+    image: "https://i.postimg.cc/K8dTMxcy/Light.png"
   },
   {
     id: "Perm Ghost     ",
@@ -578,7 +578,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "1.17B",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fk4PWk9Ly%2FGhost.png&w=640&q=75"
+    image: "https://i.postimg.cc/k4PWk9Ly/Ghost.png"
   },
   {
     id: "Perm Eagle     ",
@@ -586,7 +586,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "880M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FsxcPY864%2FEagle.png&w=640&q=75"
+    image: "https://i.postimg.cc/sxcPY864/Eagle.png"
   },
   {
     id: "Perm Rubber     ",
@@ -594,7 +594,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "111M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FqRQgjTrq%2FRubber.png&w=640&q=75"
+    image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
   {
     id: "Perm Ice     ",
@@ -602,7 +602,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "680M",
     demand: "6/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FzDjTPs7n%2FIce.png&w=640&q=75"
+    image: "https://i.postimg.cc/zDjTPs7n/Ice.png"
   },
 
   {
@@ -611,7 +611,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "770M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FQxFVkwyN%2FSand.png&w=640&q=75"
+    image: "https://i.postimg.cc/QxFVkwyN/Sand.png"
   },
   {
     id: "Perm Dark     ",
@@ -619,7 +619,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "860M",
     demand: "3/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F0NTCP7KD%2FDark.png&w=640&q=75"
+    image: "https://i.postimg.cc/0NTCP7KD/Dark.png"
   },
   {
     id: "Perm Flame     ",
@@ -627,7 +627,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "450M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8WhRLF0%2FFlame.png&w=640&q=75"
+    image: "https://i.postimg.cc/y8WhRLF0/Flame.png"
   },
   {
     id: "Perm Spike     ",
@@ -635,7 +635,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "140M",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FfbNLsLTk%2FSpike.png&w=640&q=75"
+    image: "https://i.postimg.cc/fbNLsLTk/Spike.png"
   },
   {
     id: "Perm Smoke     ",
@@ -643,14 +643,14 @@ const itemDatabase = [
     category: "Permanent",
     value: "120M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FnVRCmpTw%2FSmoke.png&w=640&q=75"
+    image: "https://i.postimg.cc/nVRCmpTw/Smoke.png"
   },{
     id: "Perm Bomb     ",
     name: "Perm Bomb     ",
     category: "Permanent",
     value: "90M",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fy8NjP1zg%2FBomb.png&w=1920&q=75"
+    image: "https://i.postimg.cc/y8NjP1zg/Bomb.png"
   },
   {
     id: "Perm Spring     ",
@@ -658,7 +658,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "60M",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2F15r7B7nT%2FSpring.png&w=1920&q=75"
+    image: "https://i.postimg.cc/15r7B7nT/Spring.png"
   },
   {
     id: "Perm Blade     ",
@@ -666,7 +666,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "20M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FbYQmYVTJ%2FBlade.png&w=1920&q=75"
+    image: "https://i.postimg.cc/bYQmYVTJ/Blade.png"
   },
   {
     id: "Perm Spin     ",
@@ -674,7 +674,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "15M",
     demand: "1/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2Fjj4jSbLc%2FSpin.png&w=1920&q=75"
+    image: "https://i.postimg.cc/jj4jSbLc/Spin.png"
   },
   {
     id: "Perm Rocket     ",
@@ -682,7 +682,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "100M",
     demand: "2/10",
-    image: "https://bloxfruitsvalues.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FcHdrRJVP%2FRocket.png&w=1080&q=75"
+    image: "https://i.postimg.cc/cHdrRJVP/Rocket.png"
   },
 
   // Gamepasses
