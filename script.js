@@ -680,7 +680,7 @@ const itemDatabase = [
     id: "Perm Rocket     ",
     name: "Perm Rocket     ",
     category: "Permanent",
-    value: "100M",
+    value: "10M",
     demand: "2/10",
     image: "https://i.postimg.cc/cHdrRJVP/Rocket.png"
   },
