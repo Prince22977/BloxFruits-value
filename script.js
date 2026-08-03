@@ -592,7 +592,7 @@ const itemDatabase = [
     id: "Perm Rubber     ",
     name: "Perm Rubber     ",
     category: "Permanent",
-    value: "104M",
+    value: "704M",
     demand: "3/10",
     image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
