@@ -22,7 +22,7 @@ const itemDatabase = [
     id: "West Dragon     ", 
     name: "West Dragon     ", 
     category: "Physical", 
-    value: "5.55B", 
+    value: "5.66B", 
     demand: "10/10", 
     image: "https://i.postimg.cc/7LfBxxs8/West-Dragon.png" 
   },
@@ -30,7 +30,7 @@ const itemDatabase = [
     id: "East Dragon     ", 
     name: "East Dragon     ", 
     category: "Physical", 
-    value: "5.4B", 
+    value: "5B", 
     demand: "10/10", 
     image: "https://i.postimg.cc/gkzHzzjS/East-Dragon.png" 
   },
@@ -38,7 +38,7 @@ const itemDatabase = [
     id: "kitsune     ", 
     name: "Kitsune     ", 
     category: "Physical", 
-    value: "680M", 
+    value: "660M", 
     demand: "10/10", 
     image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
@@ -46,7 +46,7 @@ const itemDatabase = [
     id: "Control     ", 
     name: "Control     ", 
     category: "Physical", 
-    value: "170M", 
+    value: "160M", 
     demand: "10/10", 
     image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
@@ -54,7 +54,7 @@ const itemDatabase = [
     id: "Yeti     ", 
     name: "Yeti     ", 
     category: "Physical", 
-    value: "130M", 
+    value: "120M", 
     demand: "8/10", 
     image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
@@ -70,7 +70,7 @@ const itemDatabase = [
     id: "Tiger     ",
     name: "Tiger     ",
     category: "Physical",
-    value: "140M",
+    value: "130M",
     demand: "9/10",
     image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
