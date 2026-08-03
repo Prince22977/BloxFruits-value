@@ -410,7 +410,7 @@ const itemDatabase = [
     category: "Permanent",
     value: "2.65B",
     demand: "8/10",
-    image: "https://i.postimg.cc/vBDS3KNp/download.png"
+    image: "https://i.postimg.cc/MHTHLFZD/Rumble.png"
   },
   {
     id: "Perm Venom     ",
