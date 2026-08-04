@@ -1,19 +1,18 @@
 // --- 1. HELPER: FORMAT NUMBERS (K, M, B) ---
-  function formatValue(num){
-    if (!num || num === 0) return "0";
+function formatValue(num) {
+  if (!num || num === 0) return "0";
 
-    if (num >=1000000000) {
-      return (num / 1000000000).toLocaleString('en-US', {maximumFractionDigits: 2}) +'B';
-    }
-
-    if (num >= 1000000) {
-      return (num / 1000000).toLocaleString('en-us', {maximumFractionDigits: 2}) + 'M';
-    }
-
-    if (num >= 1000) {
-      return (num / 1000).toLocaleString('en-us', {maximumFractionDigits: 2}) + 'K';
-    }
+  if (num >= 1000000000) {
+    return (num / 1000000000).toLocaleString('en-US', { maximumFractionDigits: 2 }) + 'B';
   }
+  if (num >= 1000000) {
+    return (num / 1000000).toLocaleString('en-US', { maximumFractionDigits: 2 }) + 'M';
+  }
+  if (num >= 1000) {
+    return (num / 1000).toLocaleString('en-US', { maximumFractionDigits: 2 }) + 'K';
+  }
+  return num.toString();
+}
 
 // --- 1. ITEM DATABASE WITH IMAGE URLS ---
 const itemDatabase = [
@@ -22,7 +21,7 @@ const itemDatabase = [
     id: "West Dragon     ", 
     name: "West Dragon     ", 
     category: "Physical", 
-    value: "5.66B", 
+    value: 5660000000,
     demand: "10/10", 
     image: "https://i.postimg.cc/7LfBxxs8/West-Dragon.png" 
   },
@@ -30,7 +29,7 @@ const itemDatabase = [
     id: "East Dragon     ", 
     name: "East Dragon     ", 
     category: "Physical", 
-    value: "5B", 
+    value: 5000000000, 
     demand: "10/10", 
     image: "https://i.postimg.cc/gkzHzzjS/East-Dragon.png" 
   },
@@ -38,7 +37,7 @@ const itemDatabase = [
     id: "kitsune     ", 
     name: "Kitsune     ", 
     category: "Physical", 
-    value: "660M", 
+    value: 660000000, 
     demand: "10/10", 
     image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
@@ -46,7 +45,7 @@ const itemDatabase = [
     id: "Control     ", 
     name: "Control     ", 
     category: "Physical", 
-    value: "160M", 
+    value: 160000000, 
     demand: "10/10", 
     image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
@@ -54,7 +53,7 @@ const itemDatabase = [
     id: "Yeti     ", 
     name: "Yeti     ", 
     category: "Physical", 
-    value: "120M", 
+    value: 120000000, 
     demand: "8/10", 
     image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
@@ -62,7 +61,7 @@ const itemDatabase = [
     id: "Gas     ", 
     name: "Gas     ", 
     category: "Physical", 
-    value: "60M", 
+    value: 60000000, 
     demand: "8/10", 
     image: "https://i.postimg.cc/XNCpc4fS/1000-cb-20241223162315.webp" 
   },
@@ -70,7 +69,7 @@ const itemDatabase = [
     id: "Tiger     ",
     name: "Tiger     ",
     category: "Physical",
-    value: "130M",
+    value: 130000000,
     demand: "9/10",
     image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
@@ -78,7 +77,7 @@ const itemDatabase = [
     id: "Lightning     ",
     name: "Lightning     ",
     category: "Physical",
-    value: "50M",
+    value: 50000000,
     demand: "5/10",
     image: "https://i.postimg.cc/MHTHLFZD/Rumble.png"
   },
@@ -86,7 +85,7 @@ const itemDatabase = [
     id: "Venom     ",
     name: "Venom     ",
     category: "Physical",
-    value: "20M",
+    value: 20000000,
     demand: "8/10",
     image: "https://i.postimg.cc/zGdtZLkF/Venom.png"
   },
@@ -94,7 +93,7 @@ const itemDatabase = [
     id: "Dough     ",
     name: "Dough     ",
     category: "Physical",
-    value: "30M",
+    value: 30000000,
     demand: "9/10",
     image: "https://i.postimg.cc/wxckYyqR/Dough.png"
   },
@@ -102,7 +101,7 @@ const itemDatabase = [
     id: "Pain     ",
     name: "Pain     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "5/10",
     image: "https://i.postimg.cc/mk21srj7/Pain.png"
   },
@@ -110,7 +109,7 @@ const itemDatabase = [
     id: "T-Rex     ",
     name: "T-Rex     ",
     category: "Physical",
-    value: "20M",
+    value: 20000000,
     demand: "8/10",
     image: "https://i.postimg.cc/zGDtcwTf/T-Rex.png"
   },
@@ -118,7 +117,7 @@ const itemDatabase = [
     id: "Gravity     ",
     name: "Gravity     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "5/10",
     image: "https://i.postimg.cc/D02Lw6vJ/Gravity.png"
   },
@@ -126,7 +125,7 @@ const itemDatabase = [
     id: "Mammoth     ",
     name: "Mammoth     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "5/10",
     image: "https://i.postimg.cc/sXJGqWYV/Mammoth.png"
   },
@@ -134,7 +133,7 @@ const itemDatabase = [
     id: "Spirit     ",
     name: "Spirit     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "7/10",
     image: "https://i.postimg.cc/wTpbhYvL/Spirit.png"
   },
@@ -142,7 +141,7 @@ const itemDatabase = [
     id: "Shadow     ",
     name: "Shadow     ",
     category: "Physical",
-    value: "6.5M",
+    value: 6500000,
     demand: "5/10",
     image: "https://i.postimg.cc/kGpGPvBd/Shadow.png"
   },
@@ -150,7 +149,7 @@ const itemDatabase = [
     id: "Portal     ",
     name: "Portal     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "10/10",
     image: "https://i.postimg.cc/DzkWz65v/Portal.png"
   },
@@ -158,7 +157,7 @@ const itemDatabase = [
     id: "Buddha     ",
     name: "Buddha     ",
     category: "Physical",
-    value: "10M",
+    value: 10000000,
     demand: "10/10",
     image: "https://i.postimg.cc/02nZD6h1/Buddha.png"
   },
@@ -166,7 +165,7 @@ const itemDatabase = [
     id: "Blizzard     ",
     name: "Blizzard     ",
     category: "Physical",
-    value: "5M",
+    value: 5000000,
     demand: "5/10",
     image: "https://i.postimg.cc/fTDBV72v/Blizzard.png"
   },
@@ -174,7 +173,7 @@ const itemDatabase = [
     id: "Creation     ",
     name: "Creation     ",
     category: "Physical",
-    value: "25M",
+    value: 25000000,
     demand: "2/10",
     image: "https://i.postimg.cc/HLctq6nT/Creation.png"
   },
@@ -182,7 +181,7 @@ const itemDatabase = [
     id: "Phoenix     ",
     name: "Phoenix     ",
     category: "Physical",
-    value: "27.5M",
+    value: 27500000,
     demand: "3/10",
     image: "https://i.postimg.cc/DwbJFHrp/Phoenix.png"
   },
@@ -190,7 +189,7 @@ const itemDatabase = [
     id: "Sound     ",
     name: "Sound     ",
     category: "Physical",
-    value: "25M",
+    value: 25000000,
     demand: "4/10",
     image: "https://i.postimg.cc/MKgHs5C7/Sound.png"
   },
@@ -198,7 +197,7 @@ const itemDatabase = [
     id: "Spider     ",
     name: "Spider     ",
     category: "Physical",
-    value: "1.5M",
+    value: 1500000,
     demand: "2/10",
     image: "https://i.postimg.cc/MpRTgRwh/Spider.png"
   },
@@ -206,7 +205,7 @@ const itemDatabase = [
     id: "Love     ",
     name: "Love     ",
     category: "Physical",
-    value: "1.5M",
+    value: 1500000,
     demand: "3/10",
     image: "https://i.postimg.cc/0NDwGFrK/Love.png"
   },
@@ -214,7 +213,7 @@ const itemDatabase = [
     id: "Magma     ",
     name: "Magma     ",
     category: "Physical",
-    value: "1.15M",
+    value: 1150000,
     demand: "5/10",
     image: "https://i.postimg.cc/W3VJ58JW/Magma.png"
   },
@@ -222,7 +221,7 @@ const itemDatabase = [
     id: "Quake     ",
     name: "Quake     ",
     category: "Physical",
-    value: "1M",
+    value: 1000000,
     demand: "2/10",
     image: "https://i.postimg.cc/cJRvt35Q/Quake.png"
   },
@@ -230,7 +229,7 @@ const itemDatabase = [
     id: "Diamond     ",
     name: "Diamond     ",
     category: "Physical",
-    value: "1M",
+    value: 1000000,
     demand: "2/10",
     image: "https://i.postimg.cc/3N7CD7Bw/Diamond.png"
   },
@@ -238,7 +237,7 @@ const itemDatabase = [
     id: "Light     ",
     name: "Light     ",
     category: "Physical",
-    value: "800K",
+    value: 800000,
     demand: "2/10",
     image: "https://i.postimg.cc/K8dTMxcy/Light.png"
   },
@@ -246,7 +245,7 @@ const itemDatabase = [
     id: "Ghost     ",
     name: "Ghost     ",
     category: "Physical",
-    value: "800K",
+    value: 800000,
     demand: "1/10",
     image: "https://i.postimg.cc/k4PWk9Ly/Ghost.png"
   },
@@ -254,7 +253,7 @@ const itemDatabase = [
     id: "Eagle     ",
     name: "Eagle     ",
     category: "Physical",
-    value: "800K",
+    value: 800000,
     demand: "2/10",
     image: "https://i.postimg.cc/sxcPY864/Eagle.png"
   },
@@ -262,7 +261,7 @@ const itemDatabase = [
     id: "Rubber     ",
     name: "Rubber     ",
     category: "Physical",
-    value: "700K",
+    value: 700000,
     demand: "1/10",
     image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
@@ -270,7 +269,7 @@ const itemDatabase = [
     id: "Ice     ",
     name: "Ice     ",
     category: "Physical",
-    value: "550K",
+    value: 550000,
     demand: "2/10",
     image: "https://i.postimg.cc/zDjTPs7n/Ice.png"
   },
@@ -278,7 +277,7 @@ const itemDatabase = [
     id: "Sand     ",
     name: "Sand     ",
     category: "Physical",
-    value: "420K",
+    value: 420000,
     demand: "1/10",
     image: "https://i.postimg.cc/QxFVkwyN/Sand.png"
   },
@@ -286,7 +285,7 @@ const itemDatabase = [
     id: "Dark     ",
     name: "Dark     ",
     category: "Physical",
-    value: "400K",
+    value: 400000,
     demand: "1/10",
     image: "https://i.postimg.cc/0NTCP7KD/Dark.png"
   },
@@ -294,7 +293,7 @@ const itemDatabase = [
     id: "Flame     ",
     name: "Flame     ",
     category: "Physical",
-    value: "250K",
+    value: 250000,
     demand: "1/10",
     image: "https://i.postimg.cc/y8WhRLF0/Flame.png"
   },
@@ -302,7 +301,7 @@ const itemDatabase = [
     id: "Spike     ",
     name: "Spike     ",
     category: "Physical",
-    value: "180K",
+    value: 180000,
     demand: "1/10",
     image: "https://i.postimg.cc/fbNLsLTk/Spike.png"
   },
@@ -310,14 +309,14 @@ const itemDatabase = [
     id: "Smoke     ",
     name: "Smoke     ",
     category: "Physical",
-    value: "100K",
+    value: 100000,
     demand: "1/10",
     image: "https://i.postimg.cc/nVRCmpTw/Smoke.png"
   },{
     id: "Bomb     ",
     name: "Bomb     ",
     category: "Physical",
-    value: "80K",
+    value: 80000,
     demand: "1/10",
     image: "https://i.postimg.cc/y8NjP1zg/Bomb.png"
   },
@@ -325,7 +324,7 @@ const itemDatabase = [
     id: "Spring     ",
     name: "Spring     ",
     category: "Physical",
-    value: "60K",
+    value: 60000,
     demand: "1/10",
     image: "https://i.postimg.cc/15r7B7nT/Spring.png"
   },
@@ -333,7 +332,7 @@ const itemDatabase = [
     id: "Blade     ",
     name: "Blade     ",
     category: "Physical",
-    value: "50K",
+    value: 50000,
     demand: "1/10",
     image: "https://i.postimg.cc/bYQmYVTJ/Blade.png"
   },
@@ -341,7 +340,7 @@ const itemDatabase = [
     id: "Spin     ",
     name: "Spin     ",
     category: "Physical",
-    value: "7.5K",
+    value: 7500,
     demand: "1/10",
     image: "https://i.postimg.cc/jj4jSbLc/Spin.png"
   },
@@ -349,7 +348,7 @@ const itemDatabase = [
     id: "Rocket     ",
     name: "Rocket     ",
     category: "Physical",
-    value: "5K",
+    value: 5000,
     demand: "1/10",
     image: "https://i.postimg.cc/cHdrRJVP/Rocket.png"
   },
@@ -360,7 +359,7 @@ const itemDatabase = [
     id: "Perm Dragon     ", 
     name: "Perm Dragon     ", 
     category: "Permanent",
-    value: "8.05B", 
+    value: 8050000000, 
     demand: "9/10",  
     image: "https://img.bloxfruitcalculator.org/fruits/EastDragonFruit.png"
   },
@@ -368,7 +367,7 @@ const itemDatabase = [
     id: "Perm kitsune     ", 
     name: "Perm Kitsune     ", 
     category: "Permanent", 
-    value: "6.98B", 
+    value: 6980000000, 
     demand: "10/10", 
     image: "https://i.postimg.cc/CLxbycr9/Kitsune.png" 
   },
@@ -376,7 +375,7 @@ const itemDatabase = [
     id: "Perm Control     ", 
     name: "Perm Control     ", 
     category: "Permanent", 
-    value: "6.98B", 
+    value: 6980000000, 
     demand: "10/10", 
     image: "https://i.postimg.cc/t48L8bFV/latest-cb-20251223165924.webp" 
   },
@@ -384,7 +383,7 @@ const itemDatabase = [
     id: "Perm Yeti     ", 
     name: "Perm Yeti     ", 
     category: "Permanent", 
-    value: "5.66B", 
+    value: 5660000000, 
     demand: "9/10", 
     image: "https://i.postimg.cc/mrJmk0Jc/Yeti.png" 
   },
@@ -392,7 +391,7 @@ const itemDatabase = [
     id: "Perm Gas     ", 
     name: "Perm Gas     ", 
     category: "Permanent", 
-    value: "5B", 
+    value: 5000000000, 
     demand: "7/10", 
     image: "https://i.postimg.cc/XNCpc4fS/1000-cb-20241223162315.webp" 
   },
@@ -400,7 +399,7 @@ const itemDatabase = [
     id: "Perm Tiger     ",
     name: "Perm Tiger     ",
     category: "Permanent",
-    value: "5.66B",
+    value: 5660000000,
     demand: "9/10",
     image: "https://i.postimg.cc/vBDS3KNp/download.png"
   },
@@ -408,7 +407,7 @@ const itemDatabase = [
     id: "Perm Lightning     ",
     name: "Perm Lightning     ",
     category: "Permanent",
-    value: "3.52B",
+    value: 3520000000,
     demand: "8/10",
     image: "https://i.postimg.cc/MHTHLFZD/Rumble.png"
   },
@@ -416,7 +415,7 @@ const itemDatabase = [
     id: "Perm Venom     ",
     name: "Perm Venom     ",
     category: "Permanent",
-    value: "4.84B",
+    value: 4840000000,
     demand: "7/10",
     image: "https://i.postimg.cc/zGdtZLkF/Venom.png"
   },
@@ -424,7 +423,7 @@ const itemDatabase = [
     id: "Perm Dough     ",
     name: "Perm Dough     ",
     category: "Permanent",
-    value: "4.68B",
+    value: 4680000000,
     demand: "8/10",
     image: "https://i.postimg.cc/wxckYyqR/Dough.png"
   },
@@ -432,7 +431,7 @@ const itemDatabase = [
     id: "Perm Pain     ",
     name: "Perm Pain     ",
     category: "Permanent",
-    value: "3.84B",
+    value: 3840000000,
     demand: "8/10",
     image: "https://i.postimg.cc/mk21srj7/Pain.png"
   },
@@ -440,7 +439,7 @@ const itemDatabase = [
     id: "Perm T-Rex     ",
     name: "Perm T-Rex     ",
     category: "Permanent",
-    value: "4.52B",
+    value: 4520000000,
     demand: "8/10",
     image: "https://i.postimg.cc/zGDtcwTf/T-Rex.png"
   },
@@ -448,7 +447,7 @@ const itemDatabase = [
     id: "Perm Gravity     ",
     name: "Perm Gravity     ",
     category: "Permanent",
-    value: "4.36B",
+    value: 4360000000,
     demand: "7/10",
     image: "https://i.postimg.cc/D02Lw6vJ/Gravity.png"
   },
@@ -456,7 +455,7 @@ const itemDatabase = [
     id: "Perm Mammoth     ",
     name: "Perm Mammoth     ",
     category: "Permanent",
-    value: "4.52B",
+    value: 4520000000,
     demand: "6/10",
     image: "https://i.postimg.cc/sXJGqWYV/Mammoth.png"
   },
@@ -464,7 +463,7 @@ const itemDatabase = [
     id: "Perm Spirit     ",
     name: "Perm Spirit     ",
     category: "Permanent",
-    value: "5.16B",
+    value: 5160000000,
     demand: "5/10",
     image: "https://i.postimg.cc/wTpbhYvL/Spirit.png"
   },
@@ -472,7 +471,7 @@ const itemDatabase = [
     id: "Perm Shadow     ",
     name: "Perm Shadow     ",
     category: "Permanent",
-    value: "4.76B",
+    value: 4760000000,
     demand: "5/10",
     image: "https://i.postimg.cc/kGpGPvBd/Shadow.png"
   },
@@ -480,7 +479,7 @@ const itemDatabase = [
     id: "Perm Portal     ",
     name: "Perm Portal     ",
     category: "Permanent",
-    value: "3.04B",
+    value: 3040000000,
     demand: "9/10",
     image: "https://i.postimg.cc/DzkWz65v/Portal.png"
   },
@@ -488,7 +487,7 @@ const itemDatabase = [
     id: "Perm Buddha     ",
     name: "Perm Buddha     ",
     category: "Permanent",
-    value: "2B",
+    value: 2000000000,
     demand: "10/10",
     image: "https://i.postimg.cc/02nZD6h1/Buddha.png"
   },
@@ -496,7 +495,7 @@ const itemDatabase = [
     id: "Perm Blizzard     ",
     name: "Perm Blizzard     ",
     category: "Permanent",
-    value: "3.92B",
+    value: 3920000000,
     demand: "6/10",
     image: "https://i.postimg.cc/fTDBV72v/Blizzard.png"
   },
@@ -504,7 +503,7 @@ const itemDatabase = [
     id: "Perm Creation     ",
     name: "Perm Creation     ",
     category: "Permanent",
-    value: "2.24B",
+    value: 2240000000,
     demand: "3/10",
     image: "https://i.postimg.cc/HLctq6nT/Creation.png"
   },
@@ -512,7 +511,7 @@ const itemDatabase = [
     id: "Perm Phoenix     ",
     name: "Perm Phoenix     ",
     category: "Permanent",
-    value: "3.04B",
+    value: 3040000000,
     demand: "3/10",
     image: "https://i.postimg.cc/DwbJFHrp/Phoenix.png"
   },
@@ -520,7 +519,7 @@ const itemDatabase = [
     id: "Perm Sound     ",
     name: "Perm Sound     ",
     category: "Permanent",
-    value: "2.72B",
+    value: 2720000000,
     demand: "3/10",
     image: "https://i.postimg.cc/MKgHs5C7/Sound.png"
   },
@@ -528,7 +527,7 @@ const itemDatabase = [
     id: "Perm Spider     ",
     name: "Perm Spider     ",
     category: "Permanent",
-    value: "2.4B",
+    value: 2400000000,
     demand: "3/10",
     image: "https://i.postimg.cc/MpRTgRwh/Spider.png"
   },
@@ -536,7 +535,7 @@ const itemDatabase = [
     id: "Perm Love     ",
     name: "Perm Love     ",
     category: "Permanent",
-    value: "2.08B",
+    value: 2080000000,
     demand: "3/10",
     image: "https://i.postimg.cc/0NDwGFrK/Love.png"
   },
@@ -544,7 +543,7 @@ const itemDatabase = [
     id: "Perm Magma     ",
     name: "Perm Magma     ",
     category: "Permanent",
-    value: "1.28B",
+    value: 1280000000,
     demand: "7/10",
     image: "https://i.postimg.cc/W3VJ58JW/Magma.png"
   },
@@ -552,7 +551,7 @@ const itemDatabase = [
     id: "Perm Quake     ",
     name: "Perm Quake     ",
     category: "Permanent",
-    value: "1.52B",
+    value: 1520000000,
     demand: "3/10",
     image: "https://i.postimg.cc/cJRvt35Q/Quake.png"
   },
@@ -560,7 +559,7 @@ const itemDatabase = [
     id: "Perm Diamond     ",
     name: "Perm Diamond     ",
     category: "Permanent",
-    value: "840M",
+    value: 840000000,
     demand: "3/10",
     image: "https://i.postimg.cc/3N7CD7Bw/Diamond.png"
   },
@@ -568,7 +567,7 @@ const itemDatabase = [
     id: "Perm Light     ",
     name: "Perm Light     ",
     category: "Permanent",
-    value: "960M",
+    value: 960000000,
     demand: "7/10",
     image: "https://i.postimg.cc/K8dTMxcy/Light.png"
   },
@@ -576,7 +575,7 @@ const itemDatabase = [
     id: "Perm Ghost     ",
     name: "Perm Ghost     ",
     category: "Permanent",
-    value: "1.16B",
+    value: 1160000000,
     demand: "2/10",
     image: "https://i.postimg.cc/k4PWk9Ly/Ghost.png"
   },
@@ -584,7 +583,7 @@ const itemDatabase = [
     id: "Perm Eagle     ",
     name: "Perm Eagle     ",
     category: "Permanent",
-    value: "820M",
+    value: 820000000,
     demand: "3/10",
     image: "https://i.postimg.cc/sxcPY864/Eagle.png"
   },
@@ -592,7 +591,7 @@ const itemDatabase = [
     id: "Perm Rubber     ",
     name: "Perm Rubber     ",
     category: "Permanent",
-    value: "704M",
+    value: 704000000,
     demand: "3/10",
     image: "https://i.postimg.cc/qRQgjTrq/Rubber.png"
   },
@@ -600,7 +599,7 @@ const itemDatabase = [
     id: "Perm Ice     ",
     name: "Perm Ice     ",
     category: "Permanent",
-    value: "640M",
+    value: 640000000,
     demand: "6/10",
     image: "https://i.postimg.cc/zDjTPs7n/Ice.png"
   },
@@ -609,7 +608,7 @@ const itemDatabase = [
     id: "Perm Sand     ",
     name: "Perm Sand  ",
     category: "Permanent",
-    value: "720M",
+    value: 720000000,
     demand: "2/10",
     image: "https://i.postimg.cc/QxFVkwyN/Sand.png"
   },
@@ -617,7 +616,7 @@ const itemDatabase = [
     id: "Perm Dark     ",
     name: "Perm Dark  ",
     category: "Permanent",
-    value: "800M",
+    value: 800000000,
     demand: "3/10",
     image: "https://i.postimg.cc/0NTCP7KD/Dark.png"
   },
@@ -625,7 +624,7 @@ const itemDatabase = [
     id: "Perm Flame     ",
     name: "Perm Flame   ",
     category: "Permanent",
-    value: "450M",
+    value: 450000000,
     demand: "2/10",
     image: "https://i.postimg.cc/y8WhRLF0/Flame.png"
   },
@@ -633,7 +632,7 @@ const itemDatabase = [
     id: "Perm Spike     ",
     name: "Perm Spike   ",
     category: "Permanent",
-    value: "140M",
+    value: 140000000,
     demand: "1/10",
     image: "https://i.postimg.cc/fbNLsLTk/Spike.png"
   },
@@ -641,14 +640,14 @@ const itemDatabase = [
     id: "Perm Smoke     ",
     name: "Perm Smoke     ",
     category: "Permanent",
-    value: "120M",
+    value: 120000000,
     demand: "2/10",
     image: "https://i.postimg.cc/nVRCmpTw/Smoke.png"
   },{
     id: "Perm Bomb     ",
     name: "Perm Bomb     ",
     category: "Permanent",
-    value: "90M",
+    value: 90000000,
     demand: "1/10",
     image: "https://i.postimg.cc/y8NjP1zg/Bomb.png"
   },
@@ -656,7 +655,7 @@ const itemDatabase = [
     id: "Perm Spring     ",
     name: "Perm Spring     ",
     category: "Permanent",
-    value: "60M",
+    value: 60000000,
     demand: "1/10",
     image: "https://i.postimg.cc/15r7B7nT/Spring.png"
   },
@@ -664,7 +663,7 @@ const itemDatabase = [
     id: "Perm Blade     ",
     name: "Perm Blade     ",
     category: "Permanent",
-    value: "20M",
+    value: 20000000,
     demand: "2/10",
     image: "https://i.postimg.cc/bYQmYVTJ/Blade.png"
   },
@@ -672,7 +671,7 @@ const itemDatabase = [
     id: "Perm Spin     ",
     name: "Perm Spin     ",
     category: "Permanent",
-    value: "15M",
+    value: 15000000,
     demand: "1/10",
     image: "https://i.postimg.cc/jj4jSbLc/Spin.png"
   },
@@ -680,7 +679,7 @@ const itemDatabase = [
     id: "Perm Rocket     ",
     name: "Perm Rocket     ",
     category: "Permanent",
-    value: "10M",
+    value: 10000000,
     demand: "2/10",
     image: "https://i.postimg.cc/cHdrRJVP/Rocket.png"
   },
@@ -690,7 +689,7 @@ const itemDatabase = [
     id: "Fruit Notifier     ",
     name: "Fruit Notifier     ",
     category: "Gamepass",
-    value: "5.17B",
+    value: 5170000000,
     demand: "9/10",
     image: "https://i.postimg.cc/Zqdr70sR/Fruit-Notifer.png"
   },
@@ -698,7 +697,7 @@ const itemDatabase = [
     id: "Dark Blade     ",
     name: "Dark Blade     ",
     category: "Gamepass",
-    value: "1.04B",
+    value: 1040000000,
     demand: "9/10",
     image: "https://i.postimg.cc/fLYfLkYF/Dark-Blade.png"
   },
@@ -706,7 +705,7 @@ const itemDatabase = [
     id: "Mythical Scrolls     ",
     name: "Mythical Scrolls     ",
     category: "Gamepass",
-    value: "1.52B",
+    value: 1520000000,
     demand: "4/10",
     image: "https://i.postimg.cc/d3HktKNp/Mythical-Scrolls.png"
   },
@@ -714,7 +713,7 @@ const itemDatabase = [
     id: "Legendary Scrolls     ",
     name: "Legendary Scrolls     ",
     category: "Gamepass",
-    value: "680M",
+    value: 680000000,
     demand: "3/10",
     image: "https://i.postimg.cc/YqDYtQJ0/Legendary-Scrolls.png"
   },
@@ -722,7 +721,7 @@ const itemDatabase = [
     id: "+1 Fruit Storage     ",
     name: "+1 Fruit Storage     ",
     category: "Gamepass",
-    value: "450M",
+    value: 450000000,
     demand: "10/10",
     image: "https://i.postimg.cc/hj7pmcdF/1-Fruit-Storage.png"
   },
@@ -730,7 +729,7 @@ const itemDatabase = [
     id: "2x Mastery     ",
     name: "2x Mastery     ",
     category: "Gamepass",
-    value: "450M",
+    value: 450000000,
     demand: "10/10",
     image: "https://i.postimg.cc/0jdntrQm/2x-Mastery.png"
   },
@@ -738,7 +737,7 @@ const itemDatabase = [
     id: "2x Money     ",
     name: "2x Money     ",
     category: "Gamepass",
-    value: "450M",
+    value: 450000000,
     demand: "10/10",
     image: "https://i.postimg.cc/rsLgC58M/2x-Money.png"
   },
@@ -746,7 +745,7 @@ const itemDatabase = [
     id: "2x Boss Drops     ",
     name: "2x Boss Drops     ",
     category: "Gamepass",
-    value: "300M",
+    value: 300000000,
     demand: "8/10",
     image: "https://i.postimg.cc/HxMBy616/2x-Boss-Drops.png"
   },
@@ -754,7 +753,7 @@ const itemDatabase = [
     id: "Fast Boats     ",
     name: "Fast Boats     ",
     category: "Gamepass",
-    value: "300M",
+    value: 300000000,
     demand: "9/10",
     image: "https://i.postimg.cc/NjV6kR4S/Fast-Boats.png"
   },
@@ -820,7 +819,7 @@ function renderModalItems() {
       <span class="absolute top-1 left-1 text-[10px] bg-gray-800 text-gray-400 px-1.5 py-0.5 rounded">${item.category}</span>
       <img src="${item.image}" alt="${item.name}" onerror="this.src='${imgFallback}'" class="w-12 h-12 object-contain my-2 fruit-img">
       <div class="font-bold text-sm text-white">${item.name}</div>
-      <div class="text-green-400 text-xs font-semibold mt-1">${item.value.toLocaleString()}</div>
+      <div class="text-green-400 text-xs font-semibold mt-1">${formatValue(item.value)}</div>
     `;
     grid.appendChild(card);
   });
@@ -856,40 +855,50 @@ function updateTradeUI() {
   let yourTotal = 0;
   let theirTotal = 0;
 
+  // YOUR OFFER ITEMS
   yourOffer.forEach((item, index) => {
     yourTotal += item.value;
-    // NOW USING <img> TAG
     yourGrid.innerHTML += `
       <div class="bg-panel border border-gray-700 rounded-lg p-2 text-center relative flex flex-col justify-center items-center">
         <button onclick="removeItem('your', ${index})" class="absolute top-1 right-1 text-xs bg-red-600 text-white rounded-full w-5 h-5 flex items-center justify-center font-bold hover:bg-red-500 z-10">&times;</button>
         <img src="${item.image}" alt="${item.name}" onerror="this.src='${imgFallback}'" class="w-12 h-12 object-contain fruit-img">
-        <span class="text-xs font-bold mt-1 text-white">${item.name}</span>
+        <div class="text-xs font-bold text-white mt-1">${item.name}</div>
+        <div class="text-xs text-green-400 font-bold">${formatValue(item.value)}</div>
       </div>
     `;
   });
 
+  // THEIR OFFER ITEMS
   theirOffer.forEach((item, index) => {
     theirTotal += item.value;
-    // NOW USING <img> TAG
     theirGrid.innerHTML += `
       <div class="bg-panel border border-gray-700 rounded-lg p-2 text-center relative flex flex-col justify-center items-center">
         <button onclick="removeItem('their', ${index})" class="absolute top-1 right-1 text-xs bg-red-600 text-white rounded-full w-5 h-5 flex items-center justify-center font-bold hover:bg-red-500 z-10">&times;</button>
         <img src="${item.image}" alt="${item.name}" onerror="this.src='${imgFallback}'" class="w-12 h-12 object-contain fruit-img">
-        <span class="text-xs font-bold mt-1 text-white">${item.name}</span>
+        <div class="text-xs font-bold text-white mt-1">${item.name}</div>
+        <div class="text-xs text-green-400 font-bold">${formatValue(item.value)}</div>
       </div>
     `;
   });
 
-  document.getElementById('your-total').innerText = yourTotal.toLocaleString();
-  document.getElementById('their-total').innerText = theirTotal.toLocaleString();
+  // UPDATE TOTAL DISPLAY NUMBERS (Formatted as B/M/K)
+  document.getElementById('your-total').innerText = formatValue(yourTotal);
+  document.getElementById('their-total').innerText = formatValue(theirTotal);
 
-  calculateTradeStatus(yourTotal, theirTotal);
+  // UPDATE W/F/L STATUS BAR
+  if (typeof calculateTradeStatus === "function") {
+    calculateTradeStatus(yourTotal, theirTotal);
+  }
 }
 
 function calculateTradeStatus(yourTotal, theirTotal) {
   const statusBar = document.getElementById('status-bar');
   const statusText = document.getElementById('status-text');
 
+  // Safety check to prevent errors
+  if (!statusBar || !statusText) return;
+
+  // 0. EMPTY / INITIAL STATE
   if (yourTotal === 0 && theirTotal === 0) {
     statusBar.className = "w-full bg-panel p-4 rounded-lg text-center mb-6 border border-gray-700";
     statusText.innerText = "ADD FRUITS TO START TRADING";
@@ -897,24 +906,54 @@ function calculateTradeStatus(yourTotal, theirTotal) {
     return;
   }
 
-  const ratio = yourTotal > 0 ? (theirTotal / yourTotal) : 1;
+  const diff = theirTotal - yourTotal;
 
-  if (theirTotal === 0 && yourTotal > 0) {
-    statusBar.className = "w-full bg-red-900/40 p-4 rounded-lg text-center mb-6 border-2 border-red-500";
-    statusText.innerText = "BIG LOSS (L)";
-    statusText.className = "text-2xl font-black text-red-500";
-  } else if (ratio >= 1.15) {
-    statusBar.className = "w-full bg-green-900/40 p-4 rounded-lg text-center mb-6 border-2 border-green-500";
+  // Number thresholds
+  const FIFTY_MILLION = 50000000;
+  const TEN_MILLION   = 10000000;
+  const FIVE_MILLION  = 5000000;
+
+  // 1. BIG WIN (+50M or more)
+  if (diff >= FIFTY_MILLION) {
+    statusBar.className = "w-full bg-emerald-900/40 p-4 rounded-lg text-center mb-6 border-2 border-emerald-500 shadow-lg";
     statusText.innerText = "BIG WIN (W)";
+    statusText.className = "text-2xl font-black text-emerald-400";
+
+  // 2. WIN (+10M to +49.9M)
+  } else if (diff >= TEN_MILLION) {
+    statusBar.className = "w-full bg-green-900/40 p-4 rounded-lg text-center mb-6 border-2 border-green-500";
+    statusText.innerText = "WIN (W)";
     statusText.className = "text-2xl font-black text-green-400";
-  } else if (ratio >= 0.90 && ratio < 1.15) {
-    statusBar.className = "w-full bg-yellow-900/40 p-4 rounded-lg text-center mb-6 border-2 border-yellow-500";
-    statusText.innerText = "FAIR TRADE (F)";
-    statusText.className = "text-2xl font-black text-yellow-400";
-  } else {
+
+  // 3. SMALL WIN (+5M to +9.9M)
+  } else if (diff >= FIVE_MILLION) {
+    statusBar.className = "w-full bg-green-900/30 p-4 rounded-lg text-center mb-6 border-2 border-green-600";
+    statusText.innerText = "SMALL WIN (W)";
+    statusText.className = "text-2xl font-black text-green-300";
+
+  // 4. BIG LOSS (-50M or worse)
+  } else if (diff <= -FIFTY_MILLION) {
+    statusBar.className = "w-full bg-rose-900/40 p-4 rounded-lg text-center mb-6 border-2 border-rose-500 shadow-lg";
+    statusText.innerText = "BIG LOSS (L)";
+    statusText.className = "text-2xl font-black text-rose-500";
+
+  // 5. LOSS (-10M to -49.9M)
+  } else if (diff <= -TEN_MILLION) {
     statusBar.className = "w-full bg-red-900/40 p-4 rounded-lg text-center mb-6 border-2 border-red-500";
     statusText.innerText = "LOSS (L)";
     statusText.className = "text-2xl font-black text-red-500";
+
+  // 6. SMALL LOSS (-5M to -9.9M)
+  } else if (diff <= -FIVE_MILLION) {
+    statusBar.className = "w-full bg-red-900/30 p-4 rounded-lg text-center mb-6 border-2 border-red-600";
+    statusText.innerText = "SMALL LOSS (L)";
+    statusText.className = "text-2xl font-black text-red-400";
+
+  // 7. FAIR TRADE (-4.9M to +4.9M)
+  } else {
+    statusBar.className = "w-full bg-yellow-900/40 p-4 rounded-lg text-center mb-6 border-2 border-yellow-500";
+    statusText.innerText = "FAIR TRADE (F)";
+    statusText.className = "text-2xl font-black text-yellow-400";
   }
 }
 
