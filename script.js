@@ -985,20 +985,19 @@ function renderValueList() {
   });
 
   filtered.forEach(item => {
-    // NOW USING <img> TAG
+    // NOW USING formatValue() FOR K/M/B DISPLAY
     const cardHTML = `
       <div class="bg-panel p-4 rounded-lg border border-gray-700 text-center hover:border-blue-500 transition cursor-pointer relative flex flex-col items-center">
         <span class="absolute top-2 left-2 text-xs bg-gray-900 border border-gray-700 text-gray-300 px-2 py-0.5 rounded font-medium">${item.category}</span>
         <img src="${item.image}" alt="${item.name}" onerror="this.src='${imgFallback}'" class="w-20 h-20 object-contain my-3 fruit-img">
         <h4 class="font-bold text-lg">${item.name}</h4>
-        <p class="text-green-400 font-black mt-1">${item.value.toLocaleString()}</p>
+        <p class="text-green-400 font-black mt-1">${formatValue(item.value)}</p>
         <p class="text-gray-500 text-sm mt-1">Demand: ${item.demand}</p>
       </div>
     `;
     valueGrid.innerHTML += cardHTML;
   });
 }
-
 function filterValueList() {
   renderValueList();
 }
