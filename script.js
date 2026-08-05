@@ -757,7 +757,279 @@ const itemDatabase = [
     demand: "9/10",
     image: "https://i.postimg.cc/NjV6kR4S/Fast-Boats.png"
   },
-
+  //Limiteds
+  {
+    id: "Permanent Dragon Token     ",
+    name: "Permanent Dragon Token     ",
+    category: "Limited",
+    value: 8050000000000,
+    demand: "6/10",
+    image: "https://i.postimg.cc/59nFmw9g/Permanent-Dragon-Token.png"
+  },
+  {
+    id: "Dragon Token     ",
+    name: "Dragon Token     ",
+    category: "Limited",
+    value: N/A,
+    demand: "4/10",
+    image: "https://i.postimg.cc/hPYzkcd7/Dragon-Token.png"
+  },
+  {
+    id: "Ember West Dragon     ",
+    name: "Ember West Dragon     ",
+    category: "Limited",
+    value: 7900000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/Qtn7Wv59/latest-cb-20251226164628.webp"
+  },
+  {
+    id: "Galaxy Empyrean Kitsune     ",
+    name: "Galaxy Empyrean Kitsune     ",
+    category: "Limited",
+    value: 13310000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/k5JRY7vf/latest-cb-20251226164613.webp"
+  },
+  {
+    id: "Crimson Kitsune     ",
+    name: "Crimson Kitsune     ",
+    category: "Limited",
+    value: 9680000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/dtg9fZh5/latest-cb-20251225145618.webp"
+  },
+  {
+    id: "Meme-Meme     ",
+    name: "Meme-Meme     ",
+    category: "Limited",
+    value: 5250000000,
+    demand: "7/10",
+    image: "https://i.postimg.cc/KYLd2W5J/latest-cb-20260402183037.webp"
+  },
+  {
+    id: "Fiend Yeti     ",
+    name: "Fiend Yeti     ",
+    category: "Limited",
+    value: 920000000,
+    demand: "7/10",
+    image: "https://i.postimg.cc/fbBmGbCv/latest-cb-20260214132352.webp"
+  },
+  {
+    id: "Divine Portal     ",
+    name: "Divine Portal     ",
+    category: "Limited",
+    value: 1760000000,
+    demand: "9/10",
+    image: "https://i.postimg.cc/htF9sFwc/latest-cb-20251225222313.webp"
+  },
+  {
+    id: "Purple Lightning     ",
+    name: "Purple Lightning     ",
+    category: "Limited",
+    value: 5850000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/d0FsYGYD/Purple-Lightning.png"
+  },
+  {
+    id: "Parrot     ",
+    name: "Parrot     ",
+    category: "Limited",
+    value: N/A,
+    demand: "1/10",
+    image: "Screenshot 2026-08-05 121544.png"
+  },
+  {
+    id: "Red Lightning     ",
+    name: "Red Lightning     ",
+    category: "Limited",
+    value: 3180000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/s2DmjTkH/Red-Lightning.png"
+  },
+  {
+    id: "Yellow Lightning     ",
+    name: "Yellow Lightning     ",
+    category: "Limited",
+    value: 1890000000,
+    demand: "9/10",
+    image: "https://i.postimg.cc/cLwx2XPV/Yellow-Lightning.png"
+  },
+  {
+    id: "Green Lightning     ",
+    name: "Green Lightning     ",
+    category: "Limited",
+    value: 410000000,
+    demand: "7/10",
+    image: "https://i.postimg.cc/MKcKbW5Z/Green-Lightning.png"
+  },
+  {
+    id: "Werewolf     ",
+    name: "Werewolf     ",
+    category: "Limited",
+    value: 1010000000,
+    demand: "8/10",
+    image: "https://i.postimg.cc/mr2jLmv5/Werewolf.png"
+  },
+  {
+    id: "Rose Quartz Diamond     ",
+    name: "Rose Quartz Diamond     ",
+    category: "Limited",
+    value: 350000000,
+    demand: "8/10",
+    image: "https://i.postimg.cc/02PQqRHR/Rose-Quartz.webp"
+  },
+  {
+    id: "Emerald Diamond     ",
+    name: "Emerald Diamond     ",
+    category: "Limited",
+    value: 220000000,
+    demand: "5/10",
+    image: "https://i.postimg.cc/8zCzjdSZ/Emerald.webp"
+  },
+  {
+    id: "Topaz Diamond     ",
+    name: "Topaz Diamond     ",
+    category: "Limited",
+    value: 220000000,
+    demand: "5/10",
+    image: "https://i.postimg.cc/VLgNfG3S/Topaz.webp"
+  },
+  {
+    id: "Ruby Diamond     ",
+    name: "Ruby Diamond     ",
+    category: "Limited",
+    value: 160000000,
+    demand: "5/10",
+    image: "https://i.postimg.cc/9XGMSFbY/Ruby.webp"
+  },
+  {
+    id: "Eclipse     ",
+    name: "Eclipse     ",
+    category: "Limited",
+    value: N/A,
+    demand: "10/10",
+    image: "https://i.postimg.cc/65MLTkG9/Eclipse.png"
+  },
+  {
+    id: "Super Spirit Pain     ",
+    name: "Super Spirit Pain     ",
+    category: "Limited",
+    value: 3680000000,
+    demand: "10/10",
+    image: "https://i.postimg.cc/Xv7LjsRD/Super-Spirit-Pain.png"
+  },
+  {
+    id: "Torment Pain     ",
+    name: "Torment Pain     ",
+    category: "Limited",
+    value: 170000000,
+    demand: "6/10",
+    image: "https://i.postimg.cc/T1qGN3Q0/Torment.png"
+  },
+  {
+    id: "Sadness Pain     ",
+    name: "Sadness Pain     ",
+    category: "Limited",
+    value: 920000000,
+    demand: "7/10",
+    image: "https://i.postimg.cc/C5VS4qCd/Sadness.png"
+  },
+  {
+    id: "Frustration Pain     ",
+    name: "Frustration Pain     ",
+    category: "Limited",
+    value: 980000000,
+    demand: "8/10",
+    image: "https://i.postimg.cc/26WCvwZP/Frustration.png"
+  },
+  {
+    id: "Celestial Pain     ",
+    name: "Celestial Pain     ",
+    category: "Limited",
+    value: 1100000000,
+    demand: "8/10",
+    image: "https://i.postimg.cc/RC7ZvC2r/Celestial-Pain.png"
+  },
+  {
+    id: "Eagle Requiem     ",
+    name: "Eagle Requiem     ",
+    category: "Limited",
+    value: 160000000,
+    demand: "4/10",
+    image: "https://i.postimg.cc/7P3ZqPjr/Eagle-Requiem.png"
+  },
+  {
+    id: "Eagle Glacier     ",
+    name: "Eagle Glacier     ",
+    category: "Limited",
+    value: 20000000,
+    demand: "2/10",
+    image: "https://i.postimg.cc/qBsvpBWV/Eagle-Glacier.png"
+  },
+  {
+    id: "Eagle Matrix     ",
+    name: "Eagle Matrix     ",
+    category: "Limited",
+    value: 250000000,
+    demand: "5/10",
+    image: "https://i.postimg.cc/446xX4qD/Eagle-Matrix.png"
+  },
+  {
+    id: "Celebration Bomb     ",
+    name: "Celebration Bomb     ",
+    category: "Limited",
+    value: 10000000,
+    demand: "2/10",
+    image: "https://i.postimg.cc/Jh4xrpf6/Celebration-Bomb.png"
+  },
+  {
+    id: "Azure Bomb     ",
+    name: "Azure Bomb     ",
+    category: "Limited",
+    value: 600000000,
+    demand: "6/10",
+    image: "https://i.postimg.cc/PfW5df9K/Azura-Bomb.png"
+  },
+  {
+    id: "Thermite Bomb     ",
+    name: "Thermite Bomb     ",
+    category: "Limited",
+    value: 600000000,
+    demand: "6/10",
+    image: "https://i.postimg.cc/T2V3T2Bf/Thermite-Bomb.png"
+  },
+  {
+    id: "Nuclear Bomb     ",
+    name: "Nuclear Bomb     ",
+    category: "Limited",
+    value: 600000000,
+    demand: "6/10",
+    image: "https://i.postimg.cc/QNQdjNvs/Nuclear-Bomb.png"
+  },
+  {
+    id: "Dog Blade     ",
+    name: "Dog Blade     ",
+    category: "Limited",
+    value: 460000000,
+    demand: "7/10",
+    image: "Screenshot 2026-08-05 122345.png"
+  },
+  {
+    id: "Dog House(Frame Break)     ",
+    name: "Dog House(Frame Break)     ",
+    category: "Limited",
+    value: N/A,
+    demand: "10/10",
+    image: "Screenshot 2026-08-05 122307.png"
+  },
+  {
+    id: "Rabid Dog Blade     ",
+    name: "Rabid Dog Blade     ",
+    category: "Limited",
+    value: N/A,
+    demand: "10/10",
+    image: "Screenshot 2026-08-05 121610.png"
+  },
 ];
 
 // Helper fallback function in case an image URL breaks
