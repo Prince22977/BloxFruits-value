@@ -120,7 +120,7 @@ const itemDatabase = [
   { id: "Fast Boats", name: "Fast Boats", category: "Gamepass", value: 300000000, demand: "9/10", image: "https://i.postimg.cc/NjV6kR4S/Fast-Boats.png" },
 
   // Limiteds (FIXED: Changed unquoted N/A to "N/A")
-  { id: "Permanent Dragon Token", name: "Permanent Dragon Token", category: "Limited", value: 8050000000000, demand: "6/10", image: "https://i.postimg.cc/59nFmw9g/Permanent-Dragon-Token.png" },
+  { id: "Permanent Dragon Token", name: "Permanent Dragon Token", category: "Limited", value: 8050000000, demand: "6/10", image: "https://i.postimg.cc/59nFmw9g/Permanent-Dragon-Token.png" },
   { id: "Dragon Token", name: "Dragon Token", category: "Limited", value: "N/A", demand: "4/10", image: "https://i.postimg.cc/hPYzkcd7/Dragon-Token.png" },
   { id: "Ember West Dragon", name: "Ember West Dragon", category: "Limited", value: 7900000000, demand: "10/10", image: "https://i.postimg.cc/Qtn7Wv59/latest-cb-20251226164628.webp" },
   { id: "Galaxy Empyrean Kitsune", name: "Galaxy Empyrean Kitsune", category: "Limited", value: 13310000000, demand: "10/10", image: "https://i.postimg.cc/k5JRY7vf/latest-cb-20251226164613.webp" },
@@ -129,7 +129,7 @@ const itemDatabase = [
   { id: "Fiend Yeti", name: "Fiend Yeti", category: "Limited", value: 920000000, demand: "7/10", image: "https://i.postimg.cc/fbBmGbCv/latest-cb-20260214132352.webp" },
   { id: "Divine Portal", name: "Divine Portal", category: "Limited", value: 1760000000, demand: "9/10", image: "https://i.postimg.cc/htF9sFwc/latest-cb-20251225222313.webp" },
   { id: "Purple Lightning", name: "Purple Lightning", category: "Limited", value: 5850000000, demand: "10/10", image: "https://i.postimg.cc/d0FsYGYD/Purple-Lightning.png" },
-  { id: "Parrot", name: "Parrot", category: "Limited", value: "N/A", demand: "1/10", image: "https://via.placeholder.com/100?text=Parrot" },
+  { id: "Parrot", name: "Parrot", category: "Limited", value: "N/A", demand: "1/10", image: "Screenshot 2026-08-05 121544.png" },
   { id: "Red Lightning", name: "Red Lightning", category: "Limited", value: 3180000000, demand: "10/10", image: "https://i.postimg.cc/s2DmjTkH/Red-Lightning.png" },
   { id: "Yellow Lightning", name: "Yellow Lightning", category: "Limited", value: 1890000000, demand: "9/10", image: "https://i.postimg.cc/cLwx2XPV/Yellow-Lightning.png" },
   { id: "Green Lightning", name: "Green Lightning", category: "Limited", value: 410000000, demand: "7/10", image: "https://i.postimg.cc/MKcKbW5Z/Green-Lightning.png" },
@@ -151,9 +151,9 @@ const itemDatabase = [
   { id: "Azure Bomb", name: "Azure Bomb", category: "Limited", value: 600000000, demand: "6/10", image: "https://i.postimg.cc/PfW5df9K/Azura-Bomb.png" },
   { id: "Thermite Bomb", name: "Thermite Bomb", category: "Limited", value: 600000000, demand: "6/10", image: "https://i.postimg.cc/T2V3T2Bf/Thermite-Bomb.png" },
   { id: "Nuclear Bomb", name: "Nuclear Bomb", category: "Limited", value: 600000000, demand: "6/10", image: "https://i.postimg.cc/QNQdjNvs/Nuclear-Bomb.png" },
-  { id: "Dog Blade", name: "Dog Blade", category: "Limited", value: 460000000, demand: "7/10", image: "https://via.placeholder.com/100?text=Dog+Blade" },
-  { id: "Dog House(Frame Break)", name: "Dog House(Frame Break)", category: "Limited", value: "N/A", demand: "10/10", image: "https://via.placeholder.com/100?text=Dog+House" },
-  { id: "Rabid Dog Blade", name: "Rabid Dog Blade", category: "Limited", value: "N/A", demand: "10/10", image: "https://via.placeholder.com/100?text=Rabid+Dog" }
+  { id: "Dog Blade", name: "Dog Blade", category: "Limited", value: 460000000, demand: "7/10", image: "Screenshot 2026-08-05 122345.png" },
+  { id: "Dog House(Frame Break)", name: "Dog House(Frame Break)", category: "Limited", value: "N/A", demand: "10/10", image: "Screenshot 2026-08-05 122307.png" },
+  { id: "Rabid Dog Blade", name: "Rabid Dog Blade", category: "Limited", value: "N/A", demand: "10/10", image: "Screenshot 2026-08-05 121610.png" }
 ];
 
 // --- 3. STATE MANAGEMENT ---
